@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from './Components/NavTabs';
-import Home from './Components/pages/Home';
-import About from './Components/pages/About';
-import Projects from './Components/pages/Projects';
-import Contact from './components/pages/Contact';
+import NavTabs from './NavTabs';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 function App() {
   return (
