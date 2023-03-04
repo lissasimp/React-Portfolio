@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import NavTabs from './Components/NavTabs';
 import Home from './Components/pages/Home';
 import About from './Components/pages/About';
@@ -22,8 +22,8 @@ function App() {
       </Routes>
     </div>
     </>
-  );
-}
+  )
+};
 export default App;
 
 //Your portfolio must meet the following requirements:
