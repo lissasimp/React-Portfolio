@@ -1,32 +1,30 @@
-import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+// import React from 'react';
 import NavTabs from './Components/NavTabs';
 import Home from './Components/pages/Home';
 import About from './Components/pages/About';
 import Projects from './Components/pages/Projects';
 import Contact from './Components/pages/Contact';
+import { Route, Routes } from 'react-router-dom';
 
-<h1>HELLO! I am working</h1>
+
 
 function App() {
   return (
-    <Router>
-      <div>
-        <NavTabs />
-        {/* Wrap Route elements in a Routes component */}
-        <Routes>
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+    <>
+    <NavTabs />
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        {/* Define a route that will have descendant routes */}
+        <Route path="/contact/*" element={<Contact />} />
+      </Routes>
+    </div>
+    </>
   );
 }
+export default App;
 
 //Your portfolio must meet the following requirements:
 
@@ -149,25 +147,5 @@ function App() {
 // GitHub
 // Update your GitHub profile with pinned repositories featuring those same projects.
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
-export default App;
+
