@@ -17,6 +17,7 @@ function NavTabs() {
         <Navbar.Brand as={NavLink} to="/">Lissa Simpson</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link
+          //https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together
           as={NavLink} 
             to="/about"
           >
@@ -33,12 +34,6 @@ function NavTabs() {
             to="/contact"
           >
             Contact
-          </Nav.Link>
-          <Nav.Link
-          as={NavLink} 
-            to="/socialmedia"
-          >
-            Social Media
           </Nav.Link>
         </Nav>
       </Container>
