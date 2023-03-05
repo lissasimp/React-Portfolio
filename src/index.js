@@ -7,7 +7,9 @@ import { HashRouter } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//https://www.youtube.com/watch?v=SLfhMt5OUPI
+//Error in inspect panel
+//'You are importing createRoot from 'react-dom' which is not supported'
+//Fixed - https://bobbyhadz.com/blog/react-you-are-importing-createroot-from-react-dom
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement)

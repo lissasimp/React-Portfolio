@@ -1,29 +1,45 @@
-import React from 'react';
-import NavTabs from './Components/NavTabs';
-import Home from './Components/pages/Home';
-import About from './Components/pages/About';
-import Projects from './Components/pages/Projects';
-import Contact from './Components/pages/Contact';
-import { Route, Routes } from 'react-router-dom';
-
-
+import React from "react";
+import NavTabs from "./Components/NavTabs";
+import Home from "./Components/pages/Home";
+import About from "./Components/pages/About";
+import Projects from "./Components/pages/Projects";
+import Contact from "./Components/pages/Contact";
+import { Route, Routes } from "react-router-dom";
+import ProjectCard from "./Components/pages/Projects";
+import Wrapper from "./Components/wrapper";
+import projects from "./projects.json"
 
 function App() {
   return (
     <>
-    <NavTabs />
-    <div className="container">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        {/* Define a route that will have descendant routes */}
-        <Route path="/contact/*" element={<Contact />} />
-      </Routes>
-    </div>
+      <NavTabs />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+        <Wrapper>
+          {projects.map((f) => {
+            //{friends.map(function(f) {  alternative  - map runs this function on every element of array (friends.json)
+            return (
+              <ProjectCard
+                key={f.id} //unique key prop - helps React to more efficiently manage data
+                name={f.name}
+                text={f.text}
+                link={f.deployedLink}
+                github={f.githubRepo}
+                image={f.image}
+              />
+            );
+          })}
+        </Wrapper>
+      </div>
     </>
-  )
-};
+  );
+}
 export default App;
 
 //Your portfolio must meet the following requirements:
@@ -146,6 +162,3 @@ export default App;
 
 // GitHub
 // Update your GitHub profile with pinned repositories featuring those same projects.
-
-
-

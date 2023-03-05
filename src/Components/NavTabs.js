@@ -5,8 +5,6 @@
 //I think Social media should be an extension of the home page (was originally Learn)
 
 import React from "react";
-//useMatch allows to comparethe path e are currently on to another - using 'to' property
-//useResolvedPath takes relative or absolute path and combines it with the current path you are on and gives you full path you are accessing
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
 
@@ -16,25 +14,27 @@ function NavTabs() {
       <Container>
         <Navbar.Brand as={NavLink} to="/">Lissa Simpson</Navbar.Brand>
         <Nav className="me-auto">
+        {/*https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together*/}
           <Nav.Link
-          //https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together
           as={NavLink} 
-            to="/about"
+            to="about"
           >
             About
           </Nav.Link>
+
           <Nav.Link
           as={NavLink} 
-            to="/projects"
+            to="projects"
           >
             Projects
           </Nav.Link>
           <Nav.Link
           as={NavLink} 
-            to="/contact"
+            to="contact"
           >
             Contact
           </Nav.Link>
+
         </Nav>
       </Container>
     </Navbar>

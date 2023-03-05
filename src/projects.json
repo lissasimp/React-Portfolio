@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "HTML CSS Refactor",
+        "text": "This project is about refactoring code to improve the accessibility of a website.",
+        "deployedLink": "https://lissasimp.github.io/Homework1_Horiseon_HTML_CSS_Refactor/",
+        "githubRepo": "This project is about refactoring code to improve the accessibility of a website.",
+        "image": ""
+      },
+      {
+        "id": 2,
+        "name": "Bootstrap Portfolio",
+        "text": "This project is about creating a portfolio using Bootstrap and custom styling in CSS.",
+        "deployedLink": "https://lissasimp.github.io/Bootstrap-Portfolio/",
+        "githubRepo": "https://github.com/lissasimp/Bootstrap-Portfolio",
+        "image": ""
+      },
+      {
+        "id": 3,
+        "name": "Password Generator",
+        "text": "This project is about creating a password generator based on user input, with dynamically updated HTML and CSS ",
+        "deployedLink": "https://lissasimp.github.io/Password-Generator/",
+        "githubRepo": "https://github.com/lissasimp/Password-Generator",
+        "image": ""
+      },
+      {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "text": "This projects was to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
+        "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
+        "githubRepo": "https://github.com/lissasimp/Weather-Dashboard",
+        "image": ""
+      },
+      {
+        "id": 5,
+        "name": "Project 5",
+        "text": "",
+        "deployedLink": "",
+        "githubRepo": "",
+        "image": ""
+      },
+      {
+        "id": 6,
+        "name": "Project 6",
+        "text": "",
+        "deployedLink": "",
+        "githubRepo": "",
+        "image": ""
+      }
+]

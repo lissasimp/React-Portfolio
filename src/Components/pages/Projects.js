@@ -1,40 +1,42 @@
-// Projects page:
-
-// Must render six instances of the Project component dynamically
-
-// Be sure to store your project details data in a JSON file and import it into your project
-
-// Project:
-
-// Must be a reusable component that ingests JSON data as props and renders a single instance for each project
-
-// Must utilize Router props to properly render the right project based on user selection
-
-// Must render the following info:
-
-// Project title
-
-// Link to the deployed version
-
-// Link to the GitHub repository
-
-// GIF or screenshot of the deployed application
-
 import React from "react";
+import Card from 'react-bootstrap/Card';
 
-function Projects() {
+
+//need a style file?
+
+function ProjectCard(props) {
   return (
-    <div>
-      <h1>Projects</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+<div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={props.image} img alt={props.name}/>
+      <Card.Body>
+        <Card.Title></Card.Title> {props.name}
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text> {props.text}
+        <Card.Link href="#">Deployed Site</Card.Link> {props.deployedLink}
+        <Card.Link href="#">Github Repo</Card.Link> {props.githubRepo}
+      </Card.Body>
+    </Card>
     </div>
   );
 }
 
-export default Projects;
+export default ProjectCard;
+
+// return (
+//   <Wrapper>
+//     <Title>Friends List</Title>
+//     {friends.map(function(buddy) {
+//       return <FriendCard
+//         key={buddy.id}
+//         name={buddy.name + ", my pal"}
+//         image={buddy.image}
+//         occupation={buddy.occupation}
+//         location={buddy.location}
+//         doRemove={function() { removeFriend(buddy.id)} }
+//       />
+//     })}
+//   </Wrapper>
+// );
