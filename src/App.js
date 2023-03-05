@@ -4,39 +4,31 @@ import Home from "./Components/pages/Home";
 import About from "./Components/pages/About";
 import Projects from "./Components/pages/Projects";
 import Contact from "./Components/pages/Contact";
-import { Route, Routes } from "react-router-dom";
-import ProjectCard from "./Components/pages/Projects";
-import Wrapper from "./Components/wrapper";
-import projects from "./projects.json"
+import { Route, Routes, } from "react-router-dom";
+// import ProjectCard from "./Components/pages/Projects";
+// import Wrapper from "./Components/wrapper";
+// import projects from "./projects.json"
+import PortfolioContainer from "./Components/PortfolioContainer"
 
 function App() {
+  
+  // const {id, name, text, deployedLink, githubRepo, image} = props
   return (
     <>
+ 
+  
       <NavTabs />
-      <div className="container">
+        {/*https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom*/}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+       
+ 
+        <PortfolioContainer />
 
-        <Wrapper>
-          {projects.map((f) => {
-            //{friends.map(function(f) {  alternative  - map runs this function on every element of array (friends.json)
-            return (
-              <ProjectCard
-                key={f.id} //unique key prop - helps React to more efficiently manage data
-                name={f.name}
-                text={f.text}
-                link={f.deployedLink}
-                github={f.githubRepo}
-                image={f.image}
-              />
-            );
-          })}
-        </Wrapper>
-      </div>
     </>
   );
 }
