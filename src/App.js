@@ -4,34 +4,28 @@ import Home from "./Components/pages/Home";
 import About from "./Components/pages/About";
 import Projects from "./Components/pages/Projects";
 import Contact from "./Components/pages/Contact";
-import { Route, Routes, } from "react-router-dom";
-// import ProjectCard from "./Components/pages/Projects";
-// import Wrapper from "./Components/wrapper";
-// import projects from "./projects.json"
-import PortfolioContainer from "./Components/PortfolioContainer"
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  
-  // const {id, name, text, deployedLink, githubRepo, image} = props
   return (
-    <>
- 
-  
-      <NavTabs />
-        {/*https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom*/}
+   
+      <div>
+        <NavTabs />
+        {/* Wrap Route elements in a Routes component */}
         <Routes>
+          {/* Define routes using the Route component to render different page components at different paths */}
+          {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          {/* Define a route that will have descendant routes */}
+          <Route path="contact/*" element={<Contact />} />
         </Routes>
-       
- 
-        <PortfolioContainer />
+      </div>
 
-    </>
   );
 }
+
 export default App;
 
 //Your portfolio must meet the following requirements:
