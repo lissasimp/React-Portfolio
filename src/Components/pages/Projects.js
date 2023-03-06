@@ -1,28 +1,25 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
-import projects from "../../projects.json"
+import Card from "react-bootstrap/Card";
+import projects from "../../projects.json";
 
 function ProjectCard(props) {
-
   return (
-    { projects.map((props) =>(
     <div>
-      
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title> {props.name}
-        <Card.Img variant="top" src={props.image} img alt={props.name}/>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text> 
-        <Card.Link href="#">Deployed Site</Card.Link> {props.deployedLink}
-        <Card.Link href="#">Github Repo</Card.Link> {props.githubRepo}
-      </Card.Body>
-</div>
-)
-  )}
-
-)
+      {projects.map((props,key) => (
+        <Card style={{ width: '18rem' }}>
+        <Card.Body key={key}>
+          <Card.Title>{props.name}</Card.Title> 
+          <Card.Img variant="top" src={props.image} img alt={props.name} />
+          <Card.Text>
+           {props.text}
+          </Card.Text>
+          <Card.Link href="#">{props.deployedLink}</Card.Link> 
+          <Card.Link href="#">{props.githubRepo}</Card.Link> 
+        </Card.Body>
+        </Card>
+      ))}
+    </div>
+  );
 }
-  
+
 export default ProjectCard;
