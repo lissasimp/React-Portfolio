@@ -11,7 +11,7 @@ function ProjectCard() {
       {projects.map((props) => (
         <Col>
         <Card.Body key={props.id}>
-        <Card style={{ width: '30rem' }}>
+        <Card style={{ width: '25rem' }}>
         
           <Card.Title>{props.name}</Card.Title> 
           <Card.Img variant="top" src={process.env.PUBLIC_URL + props.image} alt ={props.name} />
