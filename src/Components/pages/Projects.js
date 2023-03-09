@@ -1,20 +1,20 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import Row from "react-bootstrap/Card";
-// import Col from "react-bootstrap/Card";
 import projects from "../../projects.json";
-// import Images from "../images";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-function ProjectCard(props) {
-  const image = require(`../../Images/${props.image}`)
+function ProjectCard() {
   return (
     <div>
+      <Row xs={4} md={3} className="g-3">
       {projects.map((props) => (
+        <Col>
         <Card.Body key={props.id}>
-        <Card style={{ width: '25rem' }}>
+        <Card style={{ width: '30rem' }}>
         
           <Card.Title>{props.name}</Card.Title> 
-          <Card.Img variant="top" src = {image} alt ={props.name} />
+          <Card.Img variant="top" src={process.env.PUBLIC_URL + props.image} alt ={props.name} />
           <Card.Text>
            {props.text}
           </Card.Text>
@@ -22,7 +22,10 @@ function ProjectCard(props) {
           <Card.Link href={props.githubRepo}>Github Repo</Card.Link> 
           </Card>
         </Card.Body>
+        </Col>
       ))}
+      
+      </Row>
     </div>
   );
 }
