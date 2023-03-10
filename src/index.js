@@ -6,6 +6,8 @@ import App from './App';
 import { HashRouter } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../src/styles.css"
+
 
 //Error in inspect panel
 //'You are importing createRoot from 'react-dom' which is not supported'

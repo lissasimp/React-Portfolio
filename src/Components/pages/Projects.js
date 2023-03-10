@@ -1,15 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import projects from "../../projects.json";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from "react-bootstrap/Row"
 
 function ProjectCard() {
   return (
     <div>
       <Row xs={4} md={3} className="g-3">
       {projects.map((props) => (
-        <Col>
+      
+
         <Card.Body key={props.id}>
         <Card style={{ width: '25rem' }}>
         
@@ -22,9 +22,7 @@ function ProjectCard() {
           <Card.Link href={props.githubRepo}>Github Repo</Card.Link> 
           </Card>
         </Card.Body>
-        </Col>
       ))}
-      
       </Row>
     </div>
   );

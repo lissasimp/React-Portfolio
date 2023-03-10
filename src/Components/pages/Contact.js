@@ -1,23 +1,14 @@
-// Must include contact information:
 
-// Email address
-
-// Link to a PDF version of your CV
-
-// Link to your GitHub profile
-
-// Link to your LinkedIn page
-
-// Must have a contact form for handling events
 
 import React from "react";
 import Button from 'react-bootstrap/Button';
+// import "./Styles/Contact.css"
 // import Form from 'react-bootstrap/Form';
 
 function Contact() {
       return (
-        <div className="container mt-5">
-          <h2 className="mb-3">Contact Us</h2>
+        <div className="container">
+          <h2 className="title-font font-semibold text-yellow tracking-widest text-xs">Contact Us</h2>
             <div className="mb-3">
               <input className="form-control" type="text" id="name" placeholder="Name" required />
             </div>

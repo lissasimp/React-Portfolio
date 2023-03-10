@@ -6,6 +6,7 @@ import Projects from "./Components/pages/Projects";
 import Contact from "./Components/pages/Contact";
 import { Route, Routes } from "react-router-dom";
 
+
 function App() {
   return (
    
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
