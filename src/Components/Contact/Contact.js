@@ -2,7 +2,7 @@
 
 import React from "react";
 import Button from 'react-bootstrap/Button';
-import "../Contact/Contact.css"
+import "./Contact.css"
 // import Form from 'react-bootstrap/Form';
 
 function Contact() {

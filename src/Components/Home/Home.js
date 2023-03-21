@@ -12,7 +12,7 @@
 // Update your GitHub profile with pinned repositories featuring those same projects.
 
 import React from "react";
-import "../Home/Home.css"
+import "./Home.css"
 
 function Home() {
   return (

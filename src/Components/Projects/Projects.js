@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import projects from "./projects.json";
 import Row from "react-bootstrap/Row"
 import Button from "react-bootstrap/Button"
-import '../Projects/Projects.css'
+import './Projects.css'
 
 function ProjectCard() {
   return (
