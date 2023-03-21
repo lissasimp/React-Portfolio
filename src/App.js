@@ -11,7 +11,7 @@ import './App.css'
 function App() {
   return (
    
-      <div>
+      <div className="background">
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes>

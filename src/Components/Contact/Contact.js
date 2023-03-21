@@ -7,6 +7,7 @@ import "./Contact.css"
 
 function Contact() {
       return (
+        <body>
         <div className="container">
           <h2 className="title-font font-semibold text-yellow tracking-widest text-xs">Contact Us</h2>
             <div className="mb-3">
@@ -23,6 +24,7 @@ function Contact() {
             </div>
             <Button variant="outline-primary" size="lg">Submit</Button>{' '}
         </div>
+        </body>
       )
   }
   
