@@ -1,0 +1,21 @@
+#navbar {
+    padding: 20px;
+    background-color: #0f0f0f;
+    border-bottom: 4px solid orange;
+  }
+  
+  #links {
+    color: orange;
+    font-size: 25px;
+    margin-right: 30px;
+    float:right;
+  }
+  
+  #links:hover {
+    color: white; /*will change color of text within the element on hover */
+  }
+
+  #myname {
+    font-size: 25px;
+    float: left;
+  }

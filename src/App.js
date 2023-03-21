@@ -1,10 +1,11 @@
 import React from "react";
-import NavTabs from "./Components/NavTabs";
-import Home from "./Components/pages/Home";
-import About from "./Components/pages/About";
-import Projects from "./Components/pages/Projects";
-import Contact from "./Components/pages/Contact";
+import NavTabs from "./Components/NavTabs/NavTabs";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact/Contact";
 import { Route, Routes } from "react-router-dom";
+import './App.css'
 
 
 function App() {

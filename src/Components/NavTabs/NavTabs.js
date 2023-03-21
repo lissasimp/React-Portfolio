@@ -7,6 +7,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import '../NavTabs/NavTabs.css'
 
 function NavTabs(props) {
   return (
