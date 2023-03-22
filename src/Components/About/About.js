@@ -1,12 +1,13 @@
 import React from "react";
-import "./Home.css";
 import profile from "../../Images/profile.PNG";
 import Button from "react-bootstrap/Button";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import "../About/About.css";
 
-function Home() {
+
+function About() {
   return (
     <>
       <section className="homeContainer">
@@ -59,4 +60,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
