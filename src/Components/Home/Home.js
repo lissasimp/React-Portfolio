@@ -1,5 +1,3 @@
-
-
 // Possibly put this on home page?
 // A good portfolio includes updated skills information and links to your web presence. You should update the following social media accounts as well:
 
@@ -12,23 +10,36 @@
 // Update your GitHub profile with pinned repositories featuring those same projects.
 
 import React from "react";
-import "./Home.css"
+import "./Home.css";
+import profile from "../../Images/profile.PNG";
 
 function Home() {
   return (
-    <div>
-      <h1>Hi, I'm Lissa</h1>
-      <p>
-      This should be a welcome landing page that contains:
-    Your Name
+    <>
+    <section className="homeContainer">
+        <div className="row">
+            <div className="col-sm-12 col-lg-5">
+      <h2 style={{ fontSize: "3 rem" }}>Hi I'm </h2>
+      <h1 className="homeTitle"style={{ fontSize: "5rem" }}>
+        <span style={{ color: "orange" }}>Lissa</span>
+      </h1>
+      <h2 style={{ fontSize: " 3rem" }}>Front End Developer </h2>
+      {/* <p>I'm passionate about web design</p> */}
+      </div>
 
- A headshot of you (or an avatar)
-
- Your brand statement
-
- Some indication that this is your portfolio site
-      </p>
+      <div className="col-sm-12 col-lg-6">
+      <img
+        src={profile}
+        className="square"
+        alt=""
+        width="340px"
+        height="340px"
+        horizontalAlign= "center"
+      ></img>
+      </div>
     </div>
+    </section>
+    </>
   );
 }
 
