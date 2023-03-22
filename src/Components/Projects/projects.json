@@ -6,7 +6,7 @@
         "text": "This project is about refactoring code to improve the accessibility of a website.",
         "deployedLink": "https://lissasimp.github.io/Homework1_Horiseon_HTML_CSS_Refactor/",
         "githubRepo": "This project is about refactoring code to improve the accessibility of a website.",
-        "image": "/Images/test.jpg"
+        "image": "/Images/blackorange.jpg"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "text": "This project is about creating a portfolio using Bootstrap and custom styling in CSS.",
         "deployedLink": "https://lissasimp.github.io/Bootstrap-Portfolio/",
         "githubRepo": "https://github.com/lissasimp/Bootstrap-Portfolio",
-        "image": "/Images/test.jpg"
+        "image": "/Images/Background.jpg"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "text": "This project is about creating a password generator based on user input, with dynamically updated HTML and CSS ",
         "deployedLink": "https://lissasimp.github.io/Password-Generator/",
         "githubRepo": "https://github.com/lissasimp/Password-Generator",
-        "image": "/Images/test.jpg"
+        "image": "/Images/blackorange.jpg"
       },
       {
         "id": 4,
@@ -30,15 +30,15 @@
         "text": "This projects was to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
         "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
         "githubRepo": "https://github.com/lissasimp/Weather-Dashboard",
-        "image": "/Images/test.jpg"
+        "image": "/Images/Background.jpg"
       },
       {
         "id": 5,
-        "name": "Project 5",
-        "text": "",
+        "name": "Travel App",
+        "text": "Group project using agile framework",
         "deployedLink": "",
         "githubRepo": "",
-        "image": "/Images/test.jpg"
+        "image": "/Images/blackorange.jpg"
       },
       {
         "id": 6,
@@ -46,6 +46,6 @@
         "text": "This is some text",
         "deployedLink": "This is a link",
         "githubRepo": "This is a link",
-        "image": "/Images/test.jpg"
+        "image": "/Images/Background.jpg"
       }
 ]

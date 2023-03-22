@@ -6,7 +6,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../About/About.css";
 
-
 function About() {
   return (
     <>
@@ -52,6 +51,12 @@ function About() {
               width="340px"
               height="340px"
               horizontalAlign="center"
+              style={{
+                height: "50%",
+                justifyContent: "center",
+                borderRadius: "50px",
+                filter: "grayscale(100%)",
+              }}
             ></img>
           </div>
         </div>
