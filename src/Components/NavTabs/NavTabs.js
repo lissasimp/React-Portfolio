@@ -16,6 +16,7 @@ function NavTabs(props) {
       <Navbar.Collapse id="basic-navbar-nav">
         {/* <Nav className="ml-auto"></Nav> */}
         <Container>
+
           {/* <Nav className="me-auto"> */}
           <Navbar.Brand as={NavLink} to="/" id="myname">
             Lissa Simpson
@@ -37,6 +38,7 @@ function NavTabs(props) {
             >
               Contact
               </Nav.Link>
+              
               <Nav.Link
                 id="links"
                 as={NavLink}
@@ -56,7 +58,7 @@ function NavTabs(props) {
               id="links"
               as={NavLink}
               to="about"
-              onClick={() => "About"}
+              onClick={() => "about"}
               className={
                 props.currentPage === "About" ? "nav-link active" : "nav-link"
               }
@@ -64,17 +66,7 @@ function NavTabs(props) {
               About
             </Nav.Link>
 
-            <Nav.Link
-              id="links"
-              as={NavLink}
-              to="home"
-              onClick={() => "Home"}
-              className={
-                props.currentPage === "Home" ? "nav-link active" : "nav-link"
-              }
-            >
-              Home
-            </Nav.Link>
+            
           </section>
           {/* </Nav> */}
         </Container>

@@ -1,6 +1,6 @@
 import React from "react";
 import NavTabs from "./Components/NavTabs/NavTabs";
-import Home from "./Components/Home/Home";
+// import Home from "./Components/About/About";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="home" element={<Home />} />
+          {/* <Route path="home" element={<Home />} /> */}
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
