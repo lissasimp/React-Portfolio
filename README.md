@@ -27,9 +27,9 @@ This project is about creating a portfolio using React and Navigation using Reac
 Deployed Site: https://boredappproj.netlify.app/
 GitHub: https://github.com/lissasimp/React-Portfolio
 
-![Home Page](../my-app/src/Images/Home.png)
-![6 projects](../my-app/src/Images/Projects.png)
-![Contact Page](../my-app/src/Images/contacts.png)
+![Home Page](./src/Images/Home.png)
+![6 projects](./src/Images/Projects.png)
+![Contact Page](./src/Images/contacts.png)
 
 
 ## Credits
