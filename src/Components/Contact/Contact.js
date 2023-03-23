@@ -32,35 +32,45 @@ function Contact() {
           <FaPhone style={{ color: "#1DA1F2" }} /> +44 7717 824584
         </p>
         <p>
-          <FaMap style={{ color: "#1DA1F2" }}/> Portsmouth, UK
+          <FaMap style={{ color: "#1DA1F2" }} /> Portsmouth, UK
         </p>
 
-        <div className="btnContainer" style={{padding:"10px"}}>
-        <div className="col-md-12 text-center">
-          <Button
-            className="contactBtn"
-            style={{ fontSize: "0.5rem", marginRight: "2rem" }}
-            href="https://twitter.com/LissaSimpson17"
-          >
-            <FaTwitter style={{ fontSize: "1rem"}} />
-          </Button>{" "}
-          <Button
-            className="contactBtn"
-            style={{ fontSize: "0.5rem", marginRight: "2rem" }}
-            href="https://www.linkedin.com/in/lissa-simpson-6b3864264/"
-          >
-            <FaLinkedin style={{ fontSize: "1rem"}} />
-          </Button>{" "}
-          <Button
-            className="contactBtn"
-            style={{ fontSize: "0.5rem", marginRight: "2rem", }}
-            href="https://github.com/lissasimp"
-          >
-            <FaGithub  style={{ fontSize: "1rem"}}/>
-          </Button>{" "}
+        <div className="btnContainer" style={{ padding: "10px" }}>
+          <div className="col-md-12 text-center">
+            <Button
+              className="contactBtn"
+              style={{ fontSize: "0.5rem", marginRight: "2rem" }}
+              href="https://twitter.com/LissaSimpson17"
+            >
+              <FaTwitter style={{ fontSize: "1rem" }} />
+            </Button>{" "}
+            <Button
+              className="contactBtn"
+              style={{ fontSize: "0.5rem", marginRight: "2rem" }}
+              href="https://www.linkedin.com/in/lissa-simpson-6b3864264/"
+            >
+              <FaLinkedin style={{ fontSize: "1rem" }} />
+            </Button>{" "}
+            <Button
+              className="contactBtn"
+              style={{ fontSize: "0.5rem", marginRight: "2rem" }}
+              href="https://github.com/lissasimp"
+            >
+              <FaGithub style={{ fontSize: "1rem" }} />
+            </Button>{" "}
+            <Button
+              className="smBtn"
+              style={{ fontSize: "0.8rem" }}
+              href="https://drive.google.com/file/d/1TChKb2k7GjYA8hoscefSNP67YPI301lX/view?usp=share_link"
+            >
+              Resume
+            </Button>{" "}
+          </div>
         </div>
-      </div>
-        <p style={{ fontSize: "20px" }}> Or contact us using the form below and we'll get back to you asap</p>
+        <p style={{ fontSize: "20px" }}>
+          {" "}
+          Or contact us using the form below and we'll get back to you asap
+        </p>
       </div>
       <div
         className="justify content"
@@ -103,14 +113,16 @@ function Contact() {
                 required
               />
             </div>
-            <Button variant="outline-primary" size="lg" style={{marginBottom:"50px"}}>
+            <Button
+              variant="outline-primary"
+              size="lg"
+              style={{ marginBottom: "50px" }}
+            >
               Submit
             </Button>
           </div>
         </div>
       </div>
-
-      
     </body>
   );
 }

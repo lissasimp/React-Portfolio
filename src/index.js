@@ -1,23 +1,22 @@
-import React from 'react';
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import React from "react";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 // import ReactDOM from 'react-dom';
-import App from './App';
-import { HashRouter } from 'react-router-dom';
+import App from "./App";
+import { HashRouter } from "react-router-dom";
 
 // import "../src/styles.css"
-
 
 //Error in inspect panel
 //'You are importing createRoot from 'react-dom' which is not supported'
 //Fixed - https://bobbyhadz.com/blog/react-you-are-importing-createroot-from-react-dom
 
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement)
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
 root.render(
-<StrictMode>
-<HashRouter>
-<App /> 
-</HashRouter>
-</StrictMode>
-)
+  <StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </StrictMode>
+);

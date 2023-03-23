@@ -1,18 +1,11 @@
 import React from "react";
 import profile from "../../Images/profile.PNG";
 
-
 import Button from "react-bootstrap/Button";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../About/About.css";
-
-const style={
-  width:"50px",
-  height:"50px",
-  margin:"5px"
-}
 
 function About() {
   return (
@@ -52,12 +45,11 @@ function About() {
                 className="smBtn"
                 style={{ fontSize: "1.5rem" }}
                 href="https://drive.google.com/file/d/1TChKb2k7GjYA8hoscefSNP67YPI301lX/view?usp=share_link"
-              >Resume
+              >
+                Resume
               </Button>{" "}
             </div>
           </div>
-          
-       
 
           <div className="col-sm-12 col-lg-6">
             <img
@@ -74,7 +66,6 @@ function About() {
                 filter: "grayscale(100%)",
               }}
             ></img>
-          
           </div>
         </div>
       </section>

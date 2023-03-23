@@ -43,7 +43,14 @@ function ProjectCard() {
               />
 
               <Card.ImgOverlay>
-                <Card.Text style={{ marginTop: "7rem", fontSize: "1rem", fontWeight:"100", backgroundColor: "black" }}>
+                <Card.Text
+                  style={{
+                    marginTop: "7rem",
+                    fontSize: "1rem",
+                    fontWeight: "100",
+                    backgroundColor: "black",
+                  }}
+                >
                   {props.text}
                 </Card.Text>
               </Card.ImgOverlay>
