@@ -2,6 +2,8 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import projects from "./projects.json";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
@@ -10,11 +12,14 @@ import "./Projects.css";
 
 function ProjectCard() {
   return (
-    <div className="cardActivity text-center" >
-      <Row xs={4} md={3} className="g-3">
+        <div className="text-center">
+      {/* <Row xs={4} md={3} className="g-3"> */}
+      <Container style={{border:"solid 2px red"}}>
+        <Row >
         {projects.map((props) => (
-          <Card.Body key={props.id}>
-            <Card
+          <Col xs="4" >
+          <Card.Body key={props.id} >
+            <Card 
               style={{
                 width: "22rem",
                 height: "23rem",
@@ -87,8 +92,10 @@ function ProjectCard() {
               </Card.Footer>
             </Card>
           </Card.Body>
+          </Col>
         ))}
       </Row>
+      </Container>
     </div>
   );
 }
