@@ -9,6 +9,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  
   return (
     <div className="background">
       <NavTabs />
@@ -21,5 +22,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

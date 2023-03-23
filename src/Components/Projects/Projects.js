@@ -10,7 +10,7 @@ import "./Projects.css";
 
 function ProjectCard() {
   return (
-    <div className="cardActivity text-center">
+    <div className="cardActivity text-center" >
       <Row xs={4} md={3} className="g-3">
         {projects.map((props) => (
           <Card.Body key={props.id}>

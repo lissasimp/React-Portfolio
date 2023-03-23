@@ -36,8 +36,10 @@ GitHub: https://github.com/lissasimp/React-Portfolio
 The following websites were used to support this project:
 - https://legacy.reactjs.org/docs/hooks-effect.html
 - https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together
-
-
+- https://stackoverflow.com/questions/68149470/adjust-react-bootstrap-card-sizes-for-grid-system-css
+- https://hygraph.com/blog/routing-in-react
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
+- https://getbootstrap.com/docs/4.3/layout/grid/
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
