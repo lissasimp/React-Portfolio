@@ -63,11 +63,11 @@ function Contact() {
         <p style={{ fontSize: "20px" }}> Or contact us using the form below and we'll get back to you asap</p>
       </div>
       <div
-        className="container"
+        className="justify content"
         style={{ display: "block", width: "80%", marginLeft: "75px" }}
       >
-        <div class="form-group row">
-          <div class="col-xs-4 ">
+        <div className="form-group row">
+          <div className="col-xs-4 ">
             <div className="mb-3">
               <input
                 className="form-control"

@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is about creating a portfolio using Bootstrap and custom styling in CSS.  **I learnt a lot in this project and I feel like my understanding of HTML, CSS, Github and Github Pages has really improved.** I am becoming quicker at debugging my code and know some of the common errors to check first, such as missing divs. My confidence is improving. Bootstrap has been a really interesting topic to learn about and I am looking forward to using it in future projects. This portfolio highlights my work to date as well as the thought processes behind it. This portfolio will be added to and developed as my own personal knowledge deepens and I have more projects to showcase to potential employers.
 
-## Available Scripts
+Design
+Remember, "good" design is subjective. Your site should look "polished" and "professional." Here are a few guidelines on what that means:
 
-In the project directory, you can run:
+Use mobile-first design.
 
-### `npm start`
+Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Make sure the font size is large enough to read and that the colors don't cause eye strain.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Base Requirements
+Your portfolio must meet the following requirements:
 
-### `npm test`
+The following technologies must be used:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React
 
-### `npm run build`
+Navigation using React Router, dynamic rendering, or another third part router
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## User Story
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **AS** an individual
+- **I WANT** a portfolio which showcases my skills and thought processes
+- **SO THAT** potential employers will hire me
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Acceptance Criteria
 
-### `npm run eject`
+- **WHEN** viewing GitHub repo
+- **THEN** folder structure is correct (index.html, CSS folder, style.css, images folder)
+- **WHEN** clicking links in navbar
+- **THEN** hover affects are applied and reader is moved to appropriate section of the page
+- **WHEN** viewing hero section
+- **THEN** picture, name and quote are displayed
+- **WHEN** viewing work section
+- **THEN** bootsrap grid systems has been used to craete cards
+- **WHEN** viewing the skills section
+- **THEN** transferable skills and technical skills ot be learnt are displayed
+- **WHEN** viewing the About Me section
+- **THEN** it will be displayed in the same row as the skills
+- **WHEN** buttons are hovered over
+- **THEN** they display a box shadow
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![alt text](./Images/Website%20Screenshot.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
+The following websites were used to support this project:
+- https://legacy.reactjs.org/docs/hooks-effect.html
+- https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

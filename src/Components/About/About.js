@@ -1,10 +1,18 @@
 import React from "react";
 import profile from "../../Images/profile.PNG";
+
+
 import Button from "react-bootstrap/Button";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../About/About.css";
+
+const style={
+  width:"50px",
+  height:"50px",
+  margin:"5px"
+}
 
 function About() {
   return (
@@ -40,16 +48,24 @@ function About() {
               >
                 <FaGithub />
               </Button>{" "}
+              <Button
+                className="smBtn"
+                style={{ fontSize: "1.5rem" }}
+                href="https://github.com/lissasimp"
+              >Resume
+              </Button>{" "}
             </div>
           </div>
+          
+       
 
           <div className="col-sm-12 col-lg-6">
             <img
               src={profile}
               className="square"
               alt=""
-              width="340px"
-              height="340px"
+              width="300px"
+              height="300px"
               horizontalAlign="center"
               style={{
                 height: "50%",
@@ -58,6 +74,7 @@ function About() {
                 filter: "grayscale(100%)",
               }}
             ></img>
+          
           </div>
         </div>
       </section>
