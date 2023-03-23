@@ -14,18 +14,20 @@ function ProjectCard() {
   return (
         <div className="text-center">
       {/* <Row xs={4} md={3} className="g-3"> */}
-      <Container style={{border:"solid 2px red"}}>
+      <Container>
+      <div className="cards">
         <Row >
         {projects.map((props) => (
           <Col xs="4" >
           <Card.Body key={props.id} >
-            <Card 
+            <Card className="cards d flex justify-content-center"
               style={{
                 width: "22rem",
                 height: "23rem",
                 borderRadius: "20px",
                 border: "solid 2px orange",
                 marginTop: "2rem",
+                marginLeft: "-5rem"
               }}
             >
               <Card.Header
@@ -95,6 +97,7 @@ function ProjectCard() {
           </Col>
         ))}
       </Row>
+      </div>
       </Container>
     </div>
   );
