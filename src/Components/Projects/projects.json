@@ -1,51 +1,52 @@
-
 [
-    {
-        "id": 1,
-        "name": "HTML CSS Refactor",
-        "text": "Task: Refactor code to improve the accessibility of a website.",
-        "deployedLink": "https://lissasimp.github.io/Homework1_Horiseon_HTML_CSS_Refactor/",
-        "githubRepo": "https://github.com/lissasimp/Homework1_Horiseon_HTML_CSS_Refactor",
-        "image": "/Images/HoriseonFS.png"
-      },
-      {
-        "id": 2,
-        "name": "Bootstrap Portfolio",
-        "text": "Task: Create a portfolio using Bootstrap and custom styling in CSS.",
-        "deployedLink": "https://lissasimp.github.io/Bootstrap-Portfolio/",
-        "githubRepo": "https://github.com/lissasimp/Bootstrap-Portfolio",
-        "image": "/Images/BootstrapFS.png"
-      },
-      {
-        "id": 3,
-        "name": "Password Generator",
-        "text": "Task: Create a password generator based on user input, with dynamically updated HTML and CSS. ",
-        "deployedLink": "https://lissasimp.github.io/Password-Generator/",
-        "githubRepo": "https://github.com/lissasimp/Password-Generator",
-        "image": "/Images/Password.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Weather Dashboard",
-        "text": "Task: Build a weather dashboard that will run in the browser and features dynamically updated HTML and CSS.",
-        "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
-        "githubRepo": "https://github.com/lissasimp/Weather-Dashboard",
-        "image": "/Images/Weather.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Travel App",
-        "text": "Task: Solve a real life problem as a group - using server-side APIs, HTML, JS and CSS.",
-        "deployedLink": "https://lissasimp.github.io/Travel2App/",
-        "githubRepo": "https://github.com/lissasimp/Travel2App",
-        "image": "/Images/travel2.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Bored?",
-        "text": "Task: Solve a real life problem - using React and NPM modules.",
-        "deployedLink": "https://boredappproj.netlify.app/",
-        "githubRepo": "https://github.com/lissasimp/BoredApp",
-        "image": "/Images/Bored.jpg"
-      }
+  {
+    "id": 1,
+    "name": "Travel App",
+    "text": "Task: Solve a real life problem as a group - using server-side APIs, HTML, JS and CSS.",
+    "deployedLink": "https://lissasimp.github.io/Travel2App/",
+    "githubRepo": "https://github.com/lissasimp/Travel2App",
+    "image": "/Images/travel2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bored?",
+    "text": "Task: Solve a real life problem - using React and NPM modules.",
+    "deployedLink": "https://boredappproj.netlify.app/",
+    "githubRepo": "https://github.com/lissasimp/BoredApp",
+    "image": "/Images/Bored.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bootstrap Portfolio",
+    "text": "Task: Create a portfolio using Bootstrap and custom styling in CSS.",
+    "deployedLink": "https://lissasimp.github.io/Bootstrap-Portfolio/",
+    "githubRepo": "https://github.com/lissasimp/Bootstrap-Portfolio",
+    "image": "/Images/BootstrapFS.png"
+  },
+  {
+    "id": 4,
+    "name": "Team Profile Generator",
+    "text": "Task: Create a working Node.js command-line application to generate an HTML webpage.",
+    "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
+    "githubRepo": "https://github.com/lissasimp/Test-Driven-Development-Team-Profile-Generator",
+    "image": "/Images/TeamGenerator.jpg"
+  },
+  {
+    "id": 5,
+    "name": "HTML CSS Refactor",
+    "text": "Task: Refactor code to improve the accessibility of a website.",
+    "deployedLink": "https://lissasimp.github.io/Homework1_Horiseon_HTML_CSS_Refactor/",
+    "githubRepo": "https://github.com/lissasimp/Homework1_Horiseon_HTML_CSS_Refactor",
+    "image": "/Images/HoriseonFS.png"
+  },
+ 
+  {
+    "id": 3,
+    "name": "Password Generator",
+    "text": "Task: Create a password generator based on user input, with dynamically updated HTML and CSS. ",
+    "deployedLink": "https://lissasimp.github.io/Password-Generator/",
+    "githubRepo": "https://github.com/lissasimp/Password-Generator",
+    "image": "/Images/Password.jpg"
+  }
+
 ]
