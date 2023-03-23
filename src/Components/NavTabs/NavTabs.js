@@ -19,13 +19,11 @@ function NavTabs(props) {
           {/* <Nav className="me-auto"> */}
           <Navbar.Brand as={NavLink} to="/" id="myname">
             Lissa Simpson
-            <div className="icons">
               <img src={JS} width="40px" height="40px"></img>
               <img src={HTML} width="40px" height="40px"></img>
               <img src={CSS} width="40px" height="40px"></img>
               <img src={ReactImg} width="50px" height="50px"></img>
               <img src={Node}width="50px" height="50px"></img>
-            </div>
           </Navbar.Brand>
 
           {/*https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together*/}

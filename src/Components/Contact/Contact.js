@@ -47,7 +47,7 @@ function Contact() {
           <Button
             className="contactBtn"
             style={{ fontSize: "0.5rem", marginRight: "2rem" }}
-            href="https://www.linkedin.com/in/lissa-simpson-5004a3111/"
+            href="https://www.linkedin.com/in/lissa-simpson-6b3864264/"
           >
             <FaLinkedin style={{ fontSize: "1rem"}} />
           </Button>{" "}

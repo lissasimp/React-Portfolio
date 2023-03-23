@@ -37,7 +37,7 @@ function About() {
               <Button
                 className="smBtn"
                 style={{ fontSize: "1.5rem" }}
-                href="https://www.linkedin.com/in/lissa-simpson-5004a3111/"
+                href="https://www.linkedin.com/in/lissa-simpson-6b3864264/"
               >
                 <FaLinkedin />
               </Button>{" "}
