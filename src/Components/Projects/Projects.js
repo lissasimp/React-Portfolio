@@ -8,7 +8,6 @@ import Button from "react-bootstrap/Button";
 import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
-import "./Projects.css";
 
 function ProjectCard() {
   return (
@@ -22,7 +21,7 @@ function ProjectCard() {
       {/* <Row xs={4} md={3} className="g-3"> */}
       <Container>
         {/* <div className="cards"> */}
-        <Row >
+        <Row>
           {projects.map((props) => (
             <Col className="container-fluid">
               <Card.Body key={props.id}>
@@ -34,7 +33,7 @@ function ProjectCard() {
                     border: "solid 4px orange",
                     marginTop: "2rem",
                     marginBottom: "0.5rem",
-                    backgroundColor: "black"
+                    backgroundColor: "black",
                   }}
                 >
                   <Card.Img
@@ -51,7 +50,7 @@ function ProjectCard() {
                       color: "orange",
                       fontWeight: "700",
                       fontSize: "1.6rem",
-                      margin:"0"
+                      margin: "0",
                     }}
                   >
                     {props.name}
@@ -65,7 +64,7 @@ function ProjectCard() {
                       fontWeight: "400",
                       marginBottom: "0.5rem",
                       paddingLeft: "0.2rem",
-                      paddingRight: "0.2rem"
+                      paddingRight: "0.2rem",
                     }}
                   >
                     {props.text}

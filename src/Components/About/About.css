@@ -46,24 +46,23 @@ p {
   border-radius: 15px;
 }
 /* iPads/Tablets */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .profileImg {
     position: relative !important;
     padding-top: 30px;
   }
-/* Mobile Devices */
+  /* Mobile Devices */
 }
-@media (max-width: 480px){
+@media (max-width: 480px) {
   .profileImg {
     position: relative !important;
     padding-top: 30px;
   }
 }
 /* Small screens/laptops */
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .profileImg {
     position: relative !important;
     padding-top: 30px;
   }
-
 }
