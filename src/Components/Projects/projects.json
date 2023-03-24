@@ -43,7 +43,7 @@
   {
     "id": 3,
     "name": "Password Generator",
-    "text": "Task: Create a password generator based on user input, with dynamically updated HTML and CSS. ",
+    "text": "Task: Create a password generator with dynamically updated HTML and CSS. ",
     "deployedLink": "https://lissasimp.github.io/Password-Generator/",
     "githubRepo": "https://github.com/lissasimp/Password-Generator",
     "image": "/Images/Password.jpg"

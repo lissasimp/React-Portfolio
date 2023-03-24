@@ -14,7 +14,7 @@ function Contact() {
   return (
     <body>
       <h2
-        className="title-font font-semibold text-yellow text-center tracking-widest text-xs"
+        className="title-font font-semibold text-yellow text-center"
         style={{ padding: "10px" }}
       >
         We'd love to hear from you
@@ -67,7 +67,7 @@ function Contact() {
             </Button>{" "}
           </div>
         </div>
-        <p style={{ fontSize: "20px" }}>
+        <p style={{ fontSize: "15px" }}>
           {" "}
           Or contact us using the form below and we'll get back to you asap
         </p>
