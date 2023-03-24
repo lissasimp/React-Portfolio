@@ -10,9 +10,9 @@ import "../About/About.css";
 function About() {
   return (
     <>
-      <section className="homeContainer">
+      <section className="homeContainer container-fluid align-items-center" style={{marginTop:"5rem"}}>
         <div className="row">
-          <div className="col-sm-12 col-lg-5">
+          <div className="col-sm-12 col-lg-5" style={{marginLeft:"-2rem"}}>
             <h2 style={{ fontSize: "3 rem" }}>Hi I'm </h2>
             <h1 className="homeTitle" style={{ fontSize: "5rem" }}>
               <span style={{ color: "orange" }}>Lissa</span>
@@ -59,11 +59,13 @@ function About() {
               width="300px"
               height="300px"
               horizontalAlign="center"
+             
               style={{
                 height: "50%",
                 justifyContent: "center",
                 borderRadius: "50px",
                 filter: "grayscale(100%)",
+                marginRight:"6rem"
               }}
             ></img>
           </div>
