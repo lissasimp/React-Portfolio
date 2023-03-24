@@ -30,7 +30,7 @@ p {
   color: #fff !important;
 }
 
-square {
+.profileImg {
   height: 50%;
   justify-content: center;
   border-radius: 50px;
@@ -44,4 +44,26 @@ square {
 .smBtn {
   margin-right: 13px;
   border-radius: 15px;
+}
+/* iPads/Tablets */
+@media (max-width: 768px){
+  .profileImg {
+    position: relative !important;
+    padding-top: 30px;
+  }
+/* Mobile Devices */
+}
+@media (max-width: 480px){
+  .profileImg {
+    position: relative !important;
+    padding-top: 30px;
+  }
+}
+/* Small screens/laptops */
+@media (max-width: 1024px){
+  .profileImg {
+    position: relative !important;
+    padding-top: 30px;
+  }
+
 }
