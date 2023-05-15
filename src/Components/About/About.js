@@ -61,11 +61,12 @@ function About() {
               horizontalAlign="center"
              
               style={{
-                height: "50%",
+                height: "90%",
                 justifyContent: "center",
                 borderRadius: "50px",
-                filter: "grayscale(100%)",
-                marginRight:"6rem"
+                // filter: "grayscale(100%)",
+                marginRight:"4rem",
+                marginTop:"3rem"
               }}
             ></img>
           </div>
