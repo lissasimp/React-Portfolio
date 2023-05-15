@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../Images/profile.PNG";
+import profile from "../../Images/Profile.jpeg";
 
 import Button from "react-bootstrap/Button";
 import { FaTwitter } from "react-icons/fa";
