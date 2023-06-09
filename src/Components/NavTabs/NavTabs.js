@@ -62,7 +62,6 @@ function NavTabs(props) {
           </section>
           
         </Container>
-        
       </Navbar.Collapse>
     </Navbar>
   );
