@@ -17,7 +17,6 @@ function Footer () {
             <img id="logo"src={CSS} width="30px" height="30px" alt="CSS logo"></img>
             <img id="logo"src={ReactImg} width="40px" height="40px" alt="React logo"></img>
             <img id="logo"src={Node} width="40px" height="40px" alt="Node logo"></img>
-            <img id="logo"src={Google} width="40px" height="40px" alt="Google Educator"></img>
             </div>
   </footer>
   )
