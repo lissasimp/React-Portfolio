@@ -4,7 +4,6 @@ import HTML from "../../Images/html.png";
 import JS from "../../Images/js.png";
 import Node from "../../Images/Node.png";
 import ReactImg from "../../Images/React.png";
-import Google from "../../Images/Google.png";
 
 
 function Footer () {
