@@ -12,6 +12,12 @@
 
 .row {
   align-items: center;
+  /* padding-left: 15%;
+  padding-right: 0%; */
+}
+
+.about {
+  align-items: center;
   padding-left: 15%;
   padding-right: 0%;
 }

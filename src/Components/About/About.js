@@ -11,7 +11,7 @@ function About() {
   return (
     <>
       <section className="homeContainer container-fluid align-items-center" style={{marginTop:"5rem"}}>
-        <div className="row">
+        <div className="about">
           <div className="col-sm-12 col-lg-5" style={{marginLeft:"-2rem"}}>
             <h2 style={{ fontSize: "3 rem" }}>Hi I'm </h2>
             <h1 className="homeTitle" style={{ fontSize: "5rem" }}>

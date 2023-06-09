@@ -74,7 +74,7 @@ function Contact() {
       </div>
       <div
         className="justify content"
-        style={{ display: "block", width: "80%", marginLeft: "20px" }}
+        style={{ display: "block", width: "80%", marginLeft: "px" }}
       >
         <div className="form-group row">
 

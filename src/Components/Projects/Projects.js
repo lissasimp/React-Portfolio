@@ -21,7 +21,7 @@ function ProjectCard() {
       {/* <Row xs={4} md={3} className="g-3"> */}
       <Container>
         {/* <div className="cards"> */}
-        <Row>
+        <Row xs={1} md={2} lg={3} className="g-3" >
           {projects.map((props) => (
             <Col className="container-fluid">
               <Card.Body key={props.id}>
