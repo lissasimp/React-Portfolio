@@ -61,7 +61,7 @@ function Contact() {
             <Button
               className="smBtn"
               style={{ fontSize: "0.8rem" }}
-              href="https://docs.google.com/document/d/1EgKTVT0Z_4mhRs85lii0TNUF2V9LvqKHbN5rqfiOEUs/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1TChKb2k7GjYA8hoscefSNP67YPI301lX/view?usp=share_link"
             >
               CV
             </Button>{" "}
@@ -74,10 +74,9 @@ function Contact() {
       </div>
       <div
         className="justify content"
-        style={{ display: "block", width: "80%", marginLeft: "px" }}
+        style={{ display: "block", width: "80%", marginLeft: "auto", marginRight: "auto" }}
       >
         <div className="form-group row">
-
           <div className="col-xs-4 ">
             <div className="mb-3">
               <input

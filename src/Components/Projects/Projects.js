@@ -16,7 +16,7 @@ function ProjectCard() {
         className="title-font font-semibold text-yellow text-center"
         style={{ padding: "10px" }}
       >
-        Project Gallery
+        My Projects
       </h2>
       {/* <Row xs={4} md={3} className="g-3"> */}
       <Container>
