@@ -11,11 +11,11 @@ function Footer () {
   return (
   <footer>
       <div class="container text-center">
-      <img id="logo" src={JS} width="40px" height="40px" alt="JS logo"></img>
-            <img id="logo"src={HTML} width="40px" height="40px" alt="HTML logo"></img>
-            <img id="logo"src={CSS} width="40px" height="40px" alt="CSS logo"></img>
-            <img id="logo"src={ReactImg} width="50px" height="50px" alt="React logo"></img>
-            <img id="logo"src={Node} width="50px" height="50px" alt="Node logo"></img>
+      <img id="logo" src={JS} width="30px" height="30px" alt="JS logo"></img>
+            <img id="logo"src={HTML} width="30px" height="30px" alt="HTML logo"></img>
+            <img id="logo"src={CSS} width="30px" height="30px" alt="CSS logo"></img>
+            <img id="logo"src={ReactImg} width="40px" height="40px" alt="React logo"></img>
+            <img id="logo"src={Node} width="40px" height="40px" alt="Node logo"></img>
             </div>
   </footer>
   )

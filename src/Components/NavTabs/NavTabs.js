@@ -8,10 +8,9 @@ function NavTabs(props) {
   return (
     <Navbar id="navbar" variant="dark" collapseOnSelect expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        {/* <Nav className="ml-auto"></Nav> */}
-        <Container>
-          <Nav className="me-auto">
+      <Navbar.Collapse id="basic-navbar-nav" >
+        <Container fluid>
+          {/* <Nav className="me-auto"> */}
           <Navbar.Brand as={NavLink} to="/" id="myname">
             Lissa Simpson
           
@@ -19,7 +18,7 @@ function NavTabs(props) {
 
           {/*https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together*/}
           <section>
-            <Nav className="ml-auto" flex="column"></Nav>
+            <Nav className="justify-content-end">
             <Nav.Link
               id="links"
               as={NavLink}
@@ -59,9 +58,11 @@ function NavTabs(props) {
             >
               About
             </Nav.Link>
+            </Nav>
           </section>
-          </Nav>
+          
         </Container>
+        
       </Navbar.Collapse>
     </Navbar>
   );
