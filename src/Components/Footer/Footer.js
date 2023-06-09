@@ -4,6 +4,7 @@ import HTML from "../../Images/html.png";
 import JS from "../../Images/js.png";
 import Node from "../../Images/Node.png";
 import ReactImg from "../../Images/React.png";
+import Google from "../../Images/Google.png";
 
 
 function Footer () {
@@ -16,6 +17,7 @@ function Footer () {
             <img id="logo"src={CSS} width="30px" height="30px" alt="CSS logo"></img>
             <img id="logo"src={ReactImg} width="40px" height="40px" alt="React logo"></img>
             <img id="logo"src={Node} width="40px" height="40px" alt="Node logo"></img>
+            <img id="logo"src={Google} width="40px" height="40px" alt="Google Educator"></img>
             </div>
   </footer>
   )
