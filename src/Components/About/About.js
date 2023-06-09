@@ -37,7 +37,7 @@ function About() {
                   <Button
                     className="smBtn"
                     style={{ fontSize: "1.5rem" }}
-                    href="https://www.linkedin.com/in/lissa-simpson-6b3864264/"
+                    href="https://www.linkedin.com/in/lissasimpson/"
                   >
                     <FaLinkedin />
                   </Button>{" "}
@@ -51,7 +51,7 @@ function About() {
                   <Button
                     className="smBtn"
                     style={{ fontSize: "1.5rem" }}
-                    href="https://docs.google.com/document/d/1EgKTVT0Z_4mhRs85lii0TNUF2V9LvqKHbN5rqfiOEUs/edit?usp=sharing"
+                    href="https://drive.google.com/file/d/1n9tlM1LVApoJ7wnEuX_7APgFcE1vdPsk/view?usp=drive_link"
                   >
                     CV
                   </Button>{" "}
@@ -74,6 +74,7 @@ function About() {
                     // filter: "grayscale(100%)",
                     marginRight: "4rem",
                     marginTop: "3rem",
+                    marginBottom: "50px"
                   }}
                 ></img>
               </div>

@@ -11,7 +11,7 @@ function NavTabs(props) {
       <Navbar.Collapse id="basic-navbar-nav">
         {/* <Nav className="ml-auto"></Nav> */}
         <Container>
-          {/* <Nav className="me-auto"> */}
+          <Nav className="me-auto">
           <Navbar.Brand as={NavLink} to="/" id="myname">
             Lissa Simpson
           
@@ -19,7 +19,7 @@ function NavTabs(props) {
 
           {/*https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together*/}
           <section>
-            <Nav className="ml-auto"></Nav>
+            <Nav className="ml-auto" flex="column"></Nav>
             <Nav.Link
               id="links"
               as={NavLink}
@@ -60,7 +60,7 @@ function NavTabs(props) {
               About
             </Nav.Link>
           </section>
-          {/* </Nav> */}
+          </Nav>
         </Container>
       </Navbar.Collapse>
     </Navbar>

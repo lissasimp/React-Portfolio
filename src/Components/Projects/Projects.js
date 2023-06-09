@@ -19,7 +19,7 @@ function ProjectCard() {
         My Projects
       </h2>
       {/* <Row xs={4} md={3} className="g-3"> */}
-      <Container>
+      <Container style={{ marginBottom:"10rem"}}>
         {/* <div className="cards"> */}
         <Row xs={1} md={2} lg={3} className="g-3" >
           {projects.map((props) => (

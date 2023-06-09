@@ -47,7 +47,7 @@ function Contact() {
             <Button
               className="contactBtn"
               style={{ fontSize: "0.5rem", marginRight: "2rem" }}
-              href="https://www.linkedin.com/in/lissa-simpson-6b3864264/"
+              href="https://www.linkedin.com/in/lissasimpson/"
             >
               <FaLinkedin style={{ fontSize: "1rem" }} />
             </Button>{" "}
@@ -61,7 +61,7 @@ function Contact() {
             <Button
               className="smBtn"
               style={{ fontSize: "0.8rem" }}
-              href="https://drive.google.com/file/d/1TChKb2k7GjYA8hoscefSNP67YPI301lX/view?usp=share_link"
+              href="https://drive.google.com/file/d/1n9tlM1LVApoJ7wnEuX_7APgFcE1vdPsk/view?usp=sharing"
             >
               CV
             </Button>{" "}
@@ -116,7 +116,7 @@ function Contact() {
             <Button
               variant="outline-primary"
               size="lg"
-              style={{ marginBottom: "50px" }}
+              style={{ marginBottom: "100px" }}
             >
               Submit
             </Button>
