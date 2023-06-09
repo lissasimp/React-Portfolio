@@ -74,9 +74,10 @@ function Contact() {
       </div>
       <div
         className="justify content"
-        style={{ display: "block", width: "80%", marginLeft: "75px" }}
+        style={{ display: "block", width: "80%", marginLeft: "20px" }}
       >
         <div className="form-group row">
+
           <div className="col-xs-4 ">
             <div className="mb-3">
               <input

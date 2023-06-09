@@ -1,12 +1,8 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import "./NavTabs.css";
-import CSS from "../../Images/css.png";
-import HTML from "../../Images/html.png";
-import JS from "../../Images/js.png";
-import Node from "../../Images/Node.png";
-import ReactImg from "../../Images/React.png";
+
+
 
 function NavTabs(props) {
   return (
@@ -18,11 +14,7 @@ function NavTabs(props) {
           {/* <Nav className="me-auto"> */}
           <Navbar.Brand as={NavLink} to="/" id="myname">
             Lissa Simpson
-            <img src={JS} width="40px" height="40px" alt="JS logo"></img>
-            <img src={HTML} width="40px" height="40px" alt="HTML logo"></img>
-            <img src={CSS} width="40px" height="40px" alt="CSS logo"></img>
-            <img src={ReactImg} width="50px" height="50px" alt="React logo"></img>
-            <img src={Node} width="50px" height="50px" alt="Node logo"></img>
+          
           </Navbar.Brand>
 
           {/*https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together*/}
