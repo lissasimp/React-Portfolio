@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -22,16 +23,16 @@ function Contact() {
         We'd love to hear from you
       </h2>
       <p className="text-center">
-        If you would like us to work with you on your next project,<br></br>
-        please feel free to get in touch and tell us about what you’d like to
-        achieve.
+        If you would like us to work with you on your next project, please feel free to get in touch and tell us about what you’d like to achieve.
       </p>
       <div className="text-center">
         <p>
-          <FaEnvelope style={{ color: "#1DA1F2" }} /> lissasimpsonid@gmail.com
+          <FaEnvelope style={{ color: "#1DA1F2", marginRight: "10px" }} /> 
+          <a onClick="javascript:window.open('mailto:mail@domain.com', 'mail');event.preventDefault()" href="mailto:mail@domain.com">Email Me</a>
         </p>
         <p>
-          <FaPhone style={{ color: "#1DA1F2" }} /> +44 7717 824584
+          <FaPhone style={{ color: "#1DA1F2", marginRight: "10px" }} />
+          <Link to="tel:07717824584">Call Me</Link>
         </p>
         <p>
           <FaMap style={{ color: "#1DA1F2" }} /> Portsmouth, UK

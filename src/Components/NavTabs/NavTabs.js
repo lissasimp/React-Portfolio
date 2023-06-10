@@ -4,14 +4,15 @@ import { NavLink } from "react-router-dom";
 
 function NavTabs(props) {
   return (
-    <Navbar id="navbar" variant="dark" collapseOnSelect expand="lg">
+    <Navbar id="navbar" variant="dark" expand="lg">
       {/*ms auto moved hamburger menu to the right in mobile view*/}
-      <Navbar.Toggle className="ms-auto" aria-controls="basic-navbar-nav " /> 
-      <Navbar.Collapse   id="basic-navbar-nav">
-        <Container fluid>
-          <Navbar.Brand as={NavLink} to="/" id="myname">
+      <Navbar.Brand as={NavLink} to="/" id="myname"  >
             Lissa Simpson
           </Navbar.Brand>
+      <Navbar.Toggle className="ms-auto " aria-controls="basic-navbar-nav " /> 
+      <Navbar.Collapse className="text-align-center" id="basic-navbar-nav">
+        <Container>
+          
 
           {/*https://stackoverflow.com/questions/54843302/reactjs-bootstrap-navbar-and-routing-not-working-together*/}
           <section>
