@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { Container } from "react-bootstrap";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -12,6 +13,7 @@ import { FaMap } from "react-icons/fa";
 
 function Contact() {
   return (
+    <Container id="contactBox">
     <body>
       <h2
         className="title-font font-semibold text-yellow text-center"
@@ -124,6 +126,7 @@ function Contact() {
         </div>
       </div>
     </body>
+    </Container>
   );
 }
 

@@ -11,6 +11,7 @@ import { FaGlobe } from "react-icons/fa";
 
 function ProjectCard() {
   return (
+    
     <div className="text-center">
       <h2
         className="title-font font-semibold text-yellow text-center"
@@ -19,7 +20,7 @@ function ProjectCard() {
         My Projects
       </h2>
       {/* <Row xs={4} md={3} className="g-3"> */}
-      <Container style={{ marginBottom:"10rem"}}>
+      <Container style={{ marginBottom:"5rem"}}>
         {/* <div className="cards"> */}
         <Row xs={1} md={2} lg={3} className="g-3" >
           {projects.map((props) => (
