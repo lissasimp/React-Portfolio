@@ -8,23 +8,24 @@ import Button from "react-bootstrap/Button";
 import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
-
 function ProjectCard() {
   return (
-    
-    <div className="text-center">
-      <h2
+    <div className="">
+      {/* <h2
         className="title-font font-semibold text-yellow text-center"
         style={{ padding: "10px" }}
       >
         My Projects
-      </h2>
+      </h2> */}
       {/* <Row xs={4} md={3} className="g-3"> */}
-      <Container style={{ marginBottom:"5rem"}}>
+      <Container
+        className="text-center"
+        style={{ marginBottom: "5rem", marginTop: "2rem" }}
+      >
         {/* <div className="cards"> */}
-        <Row xs={1} md={2} lg={3} className="g-3" >
+        <Row xs={1} md={2} lg={3} className="g-3 ">
           {projects.map((props) => (
-            <Col className="container-fluid">
+            <Col className="">
               <Card.Body key={props.id}>
                 <Card
                   style={{
@@ -35,69 +36,74 @@ function ProjectCard() {
                     marginTop: "2rem",
                     marginBottom: "0.5rem",
                     backgroundColor: "black",
+                    margin: "0 auto",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
                   }}
                 >
                   <Card.Img
-                    variant="top"
                     src={process.env.PUBLIC_URL + props.image}
                     alt={props.name}
-                    className="imageProject"
+                    className="imageProject card-img-top"
                     width="200px"
-                    height="220px"
+                    height="360px"
                     style={{ borderTop: "20px" }}
                   />
-                  <Card.Title
-                    style={{
-                      color: "orange",
-                      fontWeight: "700",
-                      fontSize: "1.6rem",
-                      margin: "0",
-                    }}
-                  >
-                    {props.name}
-                  </Card.Title>
-
-                  <Card.Text
-                    style={{
-                      colour: "black",
-                      // marginTop: "7rem",
-                      fontSize: "1rem",
-                      fontWeight: "400",
-                      marginBottom: "0.5rem",
-                      paddingLeft: "0.2rem",
-                      paddingRight: "0.2rem",
-                    }}
-                  >
-                    {props.text}
-                  </Card.Text>
-
-                  <div className="d-flex justify-content-center">
-                    <Button
-                      id="button1"
-                      variant="dark"
-                      href={props.deployedLink}
+                  <div className="card-img-overlay d-flex flex-column justify-content-center">
+                    <Card.Title
                       style={{
-                        border: "solid 2px orange",
-                        color: "#fff",
-                        marginRight: "1rem",
-                        position: "relative",
+                        color: "orange",
+                        fontWeight: "700",
+                        fontSize: "1.6rem",
+                        margin: "0",
                       }}
                     >
-                      {" "}
-                      <FaGlobe />{" "}
-                    </Button>{" "}
-                    <Button
-                      id="button2"
-                      variant="dark"
-                      href={props.githubRepo}
+                      {props.name}
+                    </Card.Title>
+
+                    <Card.Text
                       style={{
-                        border: "solid 2px orange",
-                        color: "#fff",
-                        position: "relative",
+                        colour: "black",
+                        // marginTop: "7rem",
+                        fontSize: "1rem",
+                        fontWeight: "400",
+                        // marginTop: "7rem",
+                        paddingLeft: "0.2rem",
+                        paddingRight: "0.2rem",
                       }}
                     >
-                      <FaGithub />
-                    </Button>{" "}
+                      {props.text}
+                    </Card.Text>
+
+                    <div className="d-flex justify-content-center">
+                      <Button
+                        id="button1"
+                        variant="dark"
+                        href={props.deployedLink}
+                        style={{
+                          border: "solid 2px orange",
+                          color: "#fff",
+                          marginRight: "1rem",
+                          position: "relative",
+                        }}
+                      >
+                        {" "}
+                        <FaGlobe />{" "}
+                      </Button>{" "}
+                      <Button
+                        id="button2"
+                        variant="dark"
+                        href={props.githubRepo}
+                        style={{
+                          border: "solid 2px orange",
+                          color: "#fff",
+                          position: "relative",
+                        }}
+                      >
+                        <FaGithub />
+                      </Button>{" "}
+                    </div>
                   </div>
                 </Card>
               </Card.Body>

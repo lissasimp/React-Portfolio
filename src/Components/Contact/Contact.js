@@ -28,7 +28,7 @@ function Contact() {
       <div className="text-center">
         <p>
           <FaEnvelope style={{ color: "#1DA1F2", marginRight: "10px" }} /> 
-          <a onClick="javascript:window.open('mailto:mail@domain.com', 'mail');event.preventDefault()" href="mailto:mail@domain.com">Email Me</a>
+          <a onClick="javascript:window.open('mailto:lissasimpsonid@gmail.com', 'mail');event.preventDefault()" href="mailto:lissasimpsonid@gmail.com">Email Me</a>
         </p>
         <p>
           <FaPhone style={{ color: "#1DA1F2", marginRight: "10px" }} />
