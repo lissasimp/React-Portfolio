@@ -1,29 +1,72 @@
 # React-Portfolio
 
-This project is about creating a portfolio using React and Navigation using React Router and dynamic rendering.  **I learnt a lot in this project and I feel like my understanding of React, and React Styling has really improved** React has been a really interesting topic to learn about and I am looking forward to using it in future projects. This portfolio will be added to and developed as my own personal knowledge deepens and I have more projects to showcase to potential employers. I have used 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Table of Contents
+- [Features](#features)
+- [User Story](#user-story)
+- [Installation](#installation)
+- [Links](#links)
+- [Technology Used](#technology-used)
+- [Credits](#credits)
+- [Permission](#permission)
 
+## Features
+### This application has the following features:
+- A user can view a scalable front-end single-page application that fulfills requirements for a portfolio.
+- There is an option for adding up to 6 projects which are displayed as React Bootstrap Cards.
+- User can view and interact with contact information.
+- 
 ## User Story
+As an an individual. I want a portfolio which showcases my skills so that potential employers will hire me.
 
-- **AS** an individual
-- **I WANT** a portfolio which showcases my skills
-- **SO THAT** potential employers will hire me
+## Installation
+# Getting Started with Create React App
 
-## Acceptance Criteria
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- **WHEN** viewing GitHub repo
-- **THEN** folder structure is correct (index.html, CSS folder, style.css, images folder)
-- **WHEN** viewing Navbar
-- **THEN** links take you to appropriate section
-- **WHEN** viewing About page
-- **THEN** name, photo and brand statement are displayed
-- **WHEN** viewing Project page
-- **THEN** 6 instances of the Project component render dynamically fron JSON file
-- **WHEN** viewing Contact page
-- **THEN** contact information is displayed (email, phone, location, contact form)
+## Available Scripts
 
-## Usage
+In the project directory, you can run:
 
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Links
 Deployed Site: https://boredappproj.netlify.app/
 GitHub: https://github.com/lissasimp/React-Portfolio
 
@@ -31,6 +74,12 @@ GitHub: https://github.com/lissasimp/React-Portfolio
 ![6 projects](./src/Images/Projects.png)
 ![Contact Page](./src/Images/contacts.png)
 
+## Technology Used
+- React
+- React Router
+- React Bootstrap
+- CSS
+- Node.js
 
 ## Credits
 The following websites were used to support this project:
@@ -41,8 +90,8 @@ The following websites were used to support this project:
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
 - https://getbootstrap.com/docs/4.3/layout/grid/
 
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Permission
+I'm happy for you to use the code or parts of the code for your own site, it is open source so people can learn from it and adapt it. However, I would encourage you to modify the theme and components to make it your own. If you are using the site's design largely unmodified, I'd appreciate being credited as the designer of the website.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+I do not give permission to present any of my projects as your own.
 
