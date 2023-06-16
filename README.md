@@ -68,11 +68,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Links
 Deployed Site: https://boredappproj.netlify.app/
-GitHub: https://github.com/lissasimp/React-Portfolio
-
-![Home Page](./src/Images/Home.png)
-![6 projects](./src/Images/Projects.png)
-![Contact Page](./src/Images/contacts.png)
+![Modal](./src/assets/images/YouTube.png)![Home](https://github.com/lissasimp/BoredApp/assets/116848303/b3cca6a6-64b0-435c-b3a3-43ae4f2c12e8)
+![Projects](https://github.com/lissasimp/BoredApp/assets/116848303/3f90b884-c088-4220-8ea7-4302d52498fd)
+![contacts](https://github.com/lissasimp/BoredApp/assets/116848303/efdd7960-0814-4017-8ca1-abae06e994ce)
 
 ## Technology Used
 - React
