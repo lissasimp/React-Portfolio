@@ -6,7 +6,7 @@ function NavTabs(props) {
   return (
     <Navbar id="navbar" variant="dark" expand="lg">
       {/*ms auto moved hamburger menu to the right in mobile view*/}
-      <Navbar.Brand as={NavLink} to="/" id="myname"  >
+      <Navbar.Brand as={NavLink} to="home" id="myname"  >
             Lissa Simpson
           </Navbar.Brand>
       <Navbar.Toggle className="ms-auto " aria-controls="basic-navbar-nav " /> 

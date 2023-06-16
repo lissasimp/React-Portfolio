@@ -3,10 +3,6 @@ import profile from "../../Images/Profile.jpeg";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 
-import Button from "react-bootstrap/Button";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 import "../About/About.css";
 
 function About() {
@@ -20,42 +16,11 @@ function About() {
           <Container>
             <Row>
               <div className="col-sm-12 col-lg-5" style={{}}>
-                <h2 style={{ fontSize: "3 rem" }}>Hi I'm </h2>
-                <h1 className="homeTitle" style={{ fontSize: "5rem" }}>
-                  <span style={{ color: "orange" }}>Lissa</span>
+                <h1 className="homeTitle" style={{ fontSize: "3rem" }}>
+                  <span style={{ color: "orange" }}>Lissa Simpson</span>
                 </h1>
-                <h2 style={{ fontSize: " 3rem" }}>Front End Developer </h2>
-                {/* <p>I'm passionate about web design</p> */}
-                <div className="btnContainer">
-                  <Button
-                    className="smBtn"
-                    style={{ fontSize: "1.5rem" }}
-                    href="https://twitter.com/LissaSimpson17"
-                  >
-                    <FaTwitter />
-                  </Button>{" "}
-                  <Button
-                    className="smBtn"
-                    style={{ fontSize: "1.5rem" }}
-                    href="https://www.linkedin.com/in/lissasimpson/"
-                  >
-                    <FaLinkedin />
-                  </Button>{" "}
-                  <Button
-                    className="smBtn"
-                    style={{ fontSize: "1.5rem" }}
-                    href="https://github.com/lissasimp"
-                  >
-                    <FaGithub />
-                  </Button>{" "}
-                  <Button
-                    className="smBtn"
-                    style={{ fontSize: "1.5rem" }}
-                    href="https://drive.google.com/file/d/1n9tlM1LVApoJ7wnEuX_7APgFcE1vdPsk/view?usp=drive_link"
-                  >
-                    CV
-                  </Button>{" "}
-                </div>
+                <h2 style={{ fontSize: " 2rem" }}>Front End Developer </h2>
+                <p style={{ fontSize: " 1rem" }}>I am a passionate junior front-end developer with a drive to create engaging and user-friendly web experiences. My motivation as a professional stems from my love for coding and the satisfaction I gain from turning ideas into tangible digital solutions. In each project, I aim to deliver high-quality front-end development that not only meets the client's requirements but also exceeds user expectations by creating intuitive and visually appealing interfaces. I am fueled by the opportunity to solve problems creatively and enjoy analyzing complex challenges to implement innovative solutions. As a junior front-end developer, my end goal is to contribute to projects that have a positive impact on users' lives, whether it's improving accessibility, enhancing productivity, or providing innovative solutions to real-world problems. </p>
               </div>
 
               <div className="col-sm-12 col-lg-6">

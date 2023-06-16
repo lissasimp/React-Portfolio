@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+
 import projects from "./projects.json";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -8,9 +9,10 @@ import Button from "react-bootstrap/Button";
 import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
+
 function ProjectCard() {
   return (
-    <div className="">
+    <div>
       {/* <h2
         className="title-font font-semibold text-yellow text-center"
         style={{ padding: "10px" }}
@@ -29,8 +31,8 @@ function ProjectCard() {
               <Card.Body key={props.id}>
                 <Card
                   style={{
-                    width: "22rem",
-                    height: "23rem",
+                    width: "26rem",
+                    height: "24rem",
                     borderRadiusTop: "20px",
                     border: "solid 4px orange",
                     marginTop: "2rem",
@@ -45,7 +47,7 @@ function ProjectCard() {
                   <Card.Img
                     src={process.env.PUBLIC_URL + props.image}
                     alt={props.name}
-                    className="imageProject card-img-top"
+                    className="imageProject img card-img-top"
                     width="200px"
                     height="360px"
                     style={{ borderTop: "20px" }}

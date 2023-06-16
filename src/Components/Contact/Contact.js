@@ -28,7 +28,7 @@ function Contact() {
       <div className="text-center">
         <p>
           <FaEnvelope style={{ color: "#1DA1F2", marginRight: "10px" }} /> 
-          <a onClick="javascript:window.open('mailto:lissasimpsonid@gmail.com', 'mail');event.preventDefault()" href="mailto:lissasimpsonid@gmail.com">Email Me</a>
+          <a onClick="javascript:window.open('mailto:lissasimpsonid@gmail.com', 'mail');event.preventDefault()" href="mailto:lissasimpsonid@gmail.com">lissasimpsonid@gmail.com</a>
         </p>
         <p>
           <FaPhone style={{ color: "#1DA1F2", marginRight: "10px" }} />
@@ -37,6 +37,10 @@ function Contact() {
         <p>
           <FaMap style={{ color: "#1DA1F2" }} /> Portsmouth, UK
         </p>
+
+        <p className="text-center">
+       Or connect with us:
+      </p>
 
         <div className="btnContainer" style={{ padding: "10px" }}>
           <div className="col-md-12 text-center">
@@ -61,71 +65,9 @@ function Contact() {
             >
               <FaGithub style={{ fontSize: "1rem" }} />
             </Button>{" "}
-            <Button
-              className="smBtn"
-              style={{ fontSize: "0.8rem" }}
-              href="https://drive.google.com/file/d/1n9tlM1LVApoJ7wnEuX_7APgFcE1vdPsk/view?usp=sharing"
-            >
-              CV
-            </Button>{" "}
           </div>
         </div>
-        <p style={{ fontSize: "15px" }}>
-          {" "}
-          Or contact us using the form below and we'll get back to you asap
-        </p>
-      </div>
-      <div
-        className="justify content"
-        style={{ display: "block", width: "80%", marginLeft: "auto", marginRight: "auto" }}
-      >
-        <div className="form-group row">
-          <div className="col-xs-4 ">
-            <div className="mb-3">
-              <input
-                className="form-control"
-                type="text"
-                id="name"
-                placeholder="Name"
-                required
-              />
-            </div>
-            <div className="mb-3">
-              <input
-                className="form-control"
-                type="email"
-                placeholder="Email"
-                id="email"
-                required
-              />
-            </div>
-            <div className="mb-3">
-              <input
-                className="form-control"
-                type="subject"
-                placeholder="Subject"
-                id="subject"
-                required
-              />
-            </div>
-            <div className="mb-3">
-              <textarea
-                className="form-control"
-                placeholder="Message"
-                id="message"
-                required
-              />
-            </div>
-            <Button
-              variant="outline-primary"
-              size="lg"
-              style={{ marginBottom: "100px" }}
-            >
-              Submit
-            </Button>
-          </div>
         </div>
-      </div>
     </body>
     </Container>
   );
