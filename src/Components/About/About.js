@@ -1,7 +1,6 @@
 import React from "react";
 import profile from "../../Images/Profile.jpeg";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 
 import "../About/About.css";
@@ -9,7 +8,7 @@ import "../About/About.css";
 function About() {
   return (
     <>
-      <section class="section mt-5">
+      <section className="section mt-5">
         <Container>
           <Row className="justify-content-md-center">
             <div class="col-md-4 ">

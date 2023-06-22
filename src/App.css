@@ -46,4 +46,18 @@ body {
   overflow: hidden;
 }
 
+.about {
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 0%;
+}
+
+h2 {
+  color: #fff !important;
+}
+
+p {
+  color: #fff !important;
+}
+
 
