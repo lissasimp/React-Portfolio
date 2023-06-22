@@ -12,7 +12,11 @@ function About() {
         <Container>
           <Row className="justify-content-md-center">
             <div class="col-md-4 ">
-                <img alt="profile" class="img-fluid" src={profile} width="500px"
+              <img
+                alt="profile"
+                class="img-fluid"
+                src={profile}
+                width="500px"
                 style={{
                   height: "90%",
                   // justifyContent: "center",
@@ -20,12 +24,12 @@ function About() {
                   // filter: "grayscale(100%)",
                   marginRight: "4rem",
                   marginTop: "4rem",
-                  marginBottom: "50px"
+                  marginBottom: "50px",
                 }}
-                  />
+              />
             </div>
             <div class="col-md-6 col-lg-6 ml-auto d-flex justify-content-md-center mt-4 mt-md-0">
-              <div style={{ marginLeft: "3rem"}}>
+              <div style={{ marginLeft: "3rem" }}>
                 <h1 className="homeTitle" style={{ fontSize: "3rem" }}>
                   <span style={{ color: "orange" }}>Lissa Simpson</span>
                 </h1>

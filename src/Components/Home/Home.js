@@ -25,7 +25,7 @@ function About() {
                 </h1>
                 <h2 style={{ fontSize: " 3rem" }}>Front End Developer </h2>
                 {/* <p>I'm passionate about web design</p> */}
-               </div>
+              </div>
 
               <div className="col-sm-12 col-lg-6">
                 <img
