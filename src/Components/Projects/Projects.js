@@ -27,16 +27,15 @@ function ProjectCard() {
         {/* <div className="cards"> */}
         <Row xs={1} md={2} lg={3} className="g-3 ">
           {projects.map((props) => (
-            <Col className="">
-              <Card.Body key={props.id}>
-                <Card
+              <Card.Body key={props.id} >
+                <Card className="d-flex justify-content-center"
+
                   style={{
                     width: "26rem",
-                    height: "24rem",
+                    height: "26rem",
                     borderRadiusTop: "20px",
                     border: "solid 4px orange",
-                    marginTop: "2rem",
-                    marginBottom: "0.5rem",
+       
                     backgroundColor: "black",
                     margin: "0 auto",
                     display: "flex",
@@ -44,21 +43,25 @@ function ProjectCard() {
                     alignItems: "center",
                   }}
                 >
+                  <div className="inner " >
                   <Card.Img
+                  variant="top"
                     src={process.env.PUBLIC_URL + props.image}
                     alt={props.name}
-                    className="imageProject img card-img-top"
-                    width="200px"
-                    height="360px"
-                    style={{ borderTop: "20px" }}
+                    style={{opacity: "0.3"}}
+                    // className="imageProject img card-img-top "
+                    // width="200px"
+                    // height="360px"
                   />
+                  </div>
                   <div className="card-img-overlay d-flex flex-column justify-content-center">
+
                     <Card.Title
                       style={{
                         color: "orange",
                         fontWeight: "700",
                         fontSize: "1.6rem",
-                        margin: "0",
+                        marginBottom: "0.5rem"
                       }}
                     >
                       {props.name}
@@ -109,7 +112,6 @@ function ProjectCard() {
                   </div>
                 </Card>
               </Card.Body>
-            </Col>
           ))}
         </Row>
         {/* </div> */}

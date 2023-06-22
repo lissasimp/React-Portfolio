@@ -1,24 +1,24 @@
 [
   {
     "id": 1,
-    "name": "Travel App",
-    "text": "Task: Solve a real life problem as a group - using server-side APIs, HTML, JS and CSS.",
+    "name": "Travel2 App",
+    "text": "A collaborative project which solves a real-world problem by integrating data received from multiple server-side API requests - using server-side APIs, HTML, JS and CSS.",
     "deployedLink": "https://lissasimp.github.io/Travel2App/",
     "githubRepo": "https://github.com/lissasimp/Travel2App",
-    "image": "/Images/abstract.jpg"
+    "image": "/Images/Travel2.png"
   },
   {
     "id": 2,
     "name": "Bored?",
-    "text": "Task: Solve a real life problem - using React and NPM modules.",
+    "text": "A collaborative front-end, single-page application using React front end to build a user-focused platform - using React and NPM modules.",
     "deployedLink": "https://boredappproj.netlify.app/",
     "githubRepo": "https://github.com/lissasimp/BoredApp",
-    "image": "/Images/abstract2.jpg"
+    "image": "/Images/BoredActivity.png"
   },
   {
     "id": 3,
     "name": "Bootstrap Portfolio",
-    "text": "Task: Create a portfolio using Bootstrap and custom styling in CSS.",
+    "text": "A responsive portfolio site - using Bootstrap and custom styling in CSS.",
     "deployedLink": "https://lissasimp.github.io/Bootstrap-Portfolio/",
     "githubRepo": "https://github.com/lissasimp/Bootstrap-Portfolio",
     "image": "/Images/BootstrapFS.png"
@@ -26,27 +26,27 @@
   {
     "id": 4,
     "name": "Team Profile Generator",
-    "text": "Task: Create a working Node.js command-line application to generate an HTML webpage.",
-    "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
+    "text": "An application that generates HTML files using input from Node.js command-line.",
+    "deployedLink": "https://www.loom.com/share/de6fb34c36b34a03a0434b09af0f24e9?sid=140f3106-ecd8-4b41-b9a1-f75e86a63962",
     "githubRepo": "https://github.com/lissasimp/Test-Driven-Development-Team-Profile-Generator",
-    "image": "/Images/abstract1.jpg"
+    "image": "/Images/TeamProfile.png"
   },
   {
     "id": 5,
-    "name": "HTML CSS Refactor",
-    "text": "Task: Refactor code to improve the accessibility of a website.",
-    "deployedLink": "https://lissasimp.github.io/Homework1_Horiseon_HTML_CSS_Refactor/",
-    "githubRepo": "https://github.com/lissasimp/Homework1_Horiseon_HTML_CSS_Refactor",
-    "image": "/Images/abstract2.jpg"
+    "name": "Weather Dashboard",
+    "text": "A weather dashboard that runs in the browser and retrieves data from server APIs - created with JS, HTML and CSS. ",
+    "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
+    "githubRepo": "https://github.com/lissasimp/Weather-Dashboard",
+    "image": "/Images/Weather1.jpg"
   },
  
   {
-    "id": 3,
+    "id": 6,
     "name": "Password Generator",
-    "text": "Task: Create a password generator with dynamically updated HTML and CSS. ",
+    "text": "A password generator with dynamically updated HTML and CSS. ",
     "deployedLink": "https://lissasimp.github.io/Password-Generator/",
     "githubRepo": "https://github.com/lissasimp/Password-Generator",
-    "image": "/Images/abstract.jpg"
+    "image": "/Images/Password.jpg"
   }
 
 ]
