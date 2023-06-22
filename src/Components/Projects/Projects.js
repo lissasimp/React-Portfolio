@@ -58,8 +58,8 @@ function ProjectCard() {
                     style={{
                       color: "orange",
                       fontWeight: "700",
-                      fontSize: "1.6rem",
-                      marginBottom: "0.5rem",
+                      fontSize: "1.8rem",
+                      marginBottom: "1.5rem",
                       marginTop: "7rem",
                     }}
                   >
@@ -71,8 +71,6 @@ function ProjectCard() {
                       colour: "black",
                       fontSize: "1rem",
                       fontWeight: "400",
-                      paddingLeft: "0.2rem",
-                      paddingRight: "0.2rem",
                     }}
                   >
                     {props.text}
