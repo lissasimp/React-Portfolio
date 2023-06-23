@@ -25,8 +25,7 @@ function Contact() {
             We'd love to hear from you!
           </h2>
           <p
-            className="text-center"
-            style={{ padding: "40px", fontSize: "30px" }}
+            style={{ padding: "40px", fontSize: "30px", textAlign: "center" }}
           >
             If you would like us to work with you on your next project, please
             get in touch and tell us about what you’d like to achieve.
