@@ -8,33 +8,29 @@ import "../About/About.css";
 function About() {
   return (
     <>
-      <section className="section mt-5">
+      <section className="section mt-5" style={{marginBottom: "50px"}}>
         <Container>
           <Row className="justify-content-md-center">
             <div class="col-md-4 ">
               <img
                 alt="profile"
-                class="img-fluid"
+                className="img-fluid"
                 src={profile}
-                width="500px"
                 style={{
                   height: "90%",
-                  // justifyContent: "center",
                   borderRadius: "50px",
-                  // filter: "grayscale(100%)",
-                  marginRight: "4rem",
-                  marginTop: "4rem",
+                  marginTop: "3rem",
                   marginBottom: "50px",
                 }}
               />
             </div>
             <div class="col-md-6 col-lg-6 ml-auto d-flex justify-content-md-center mt-4 mt-md-0">
-              <div style={{ marginLeft: "3rem" }}>
+              <div>
                 <h1 className="homeTitle" style={{ fontSize: "3rem" }}>
                   <span style={{ color: "orange" }}>Lissa Simpson</span>
                 </h1>
                 <h2 style={{ fontSize: " 2rem" }}>Front End Developer </h2>
-                <p style={{ fontSize: " 1rem" }}>
+                <p style={{ fontSize: " 1rem", textAlign: "justify" }}>
                   I am a passionate junior front-end developer with a drive to
                   create engaging and user-friendly web experiences. My
                   motivation as a professional stems from my love for coding and

@@ -14,11 +14,11 @@ import { FaMap } from "react-icons/fa";
 
 function Contact() {
   return (
-    <Container id="contactBox">
+    <Container id="contactBox" >
       <body>
         <h2
           className="title-font font-semibold text-yellow text-center"
-          style={{ paddingTop: "50px", fontSize: "50px" }}
+          style={{ paddingTop: "50px", fontSize: "40px" }}
         >
           We'd love to hear from you!
         </h2>

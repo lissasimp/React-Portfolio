@@ -11,46 +11,36 @@ import { FaGlobe } from "react-icons/fa";
 
 function ProjectCard() {
   return (
-    <div>
-      {/* <h2
-        className="title-font font-semibold text-yellow text-center"
-        style={{ padding: "10px" }}
-      >
-        My Projects
-      </h2> */}
-      {/* <Row xs={4} md={3} className="g-3"> */}
+    <div className="mx-auto align-items-center">
       <Container
         className="text-center"
         style={{ marginBottom: "5rem", marginTop: "2rem" }}
       >
-        {/* <div className="cards"> */}
-        <Row xs={1} md={2} lg={3} className="g-3 ">
+        <Row
+          xs={1}
+          md={2}
+          lg={3}
+          className="g-3"
+          style={{ marginLeft: "auto", marginRight: "auto" }}
+        >
           {projects.map((props) => (
             <Card.Body key={props.id}>
               <Card
                 className="d-flex flex-column"
                 style={{
-                  width: "26rem",
-                  height: "26rem",
+                  width: "24rem",
+                  height: "24rem",
                   borderRadiusTop: "20px",
                   border: "solid 4px orange",
-
                   backgroundColor: "black",
-                  margin: "0 auto",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
                 }}
               >
-                <div className="inner ">
+                <div className="my-auto">
                   <Card.Img
                     variant="top"
                     src={process.env.PUBLIC_URL + props.image}
                     alt={props.name}
                     style={{ opacity: "0.3" }}
-                    // className="imageProject img card-img-top "
-                    // width="200px"
-                    // height="360px"
                   />
                 </div>
                 <div className="card-img-overlay d-flex flex-column justify-content-center">

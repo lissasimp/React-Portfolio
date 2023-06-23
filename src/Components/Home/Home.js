@@ -12,12 +12,10 @@ function About() {
   return (
     <>
       <section
-        className="homeContainer container-fluid align-items-center"
-        style={{ marginTop: "6rem", marginLeft: "auto", marginRight: "auto" }}
+        className="section mt-5"
       >
-        <div className="about">
           <Container>
-            <Row>
+            <Row className="justify-content-center">
               <div class="col-md-6 ">
                 <h2 style={{ fontSize: "3 rem" }}>Hi, I'm </h2>
                 <h1 className="homeTitle" style={{ fontSize: "5rem" }}>
@@ -27,29 +25,23 @@ function About() {
                 {/* <p>I'm passionate about web design</p> */}
               </div>
 
-              <div className="col-sm-12 col-lg-6">
+              <div className="col-md-4 col-sm-2" style={{ marginTop:"4rem"}}>
                 <img
                   src={profile}
-                  className="profileImg"
+                  className="img-fluid"
                   alt=""
-                  width="300px"
-                  height="300px"
-                  // horizontalAlign="center"
+                  width="400px"
 
                   style={{
                     height: "90%",
-                    // justifyContent: "center",
                     borderRadius: "50px",
-                    // filter: "grayscale(100%)",
-                    marginRight: "4rem",
-                    marginTop: "3rem",
-                    marginBottom: "50px",
+                    marginTop: "5px",
+                    marginBottom: "6rem",
                   }}
                 ></img>
               </div>
             </Row>
           </Container>
-        </div>
       </section>
     </>
   );
