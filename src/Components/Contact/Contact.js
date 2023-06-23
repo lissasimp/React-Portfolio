@@ -24,9 +24,7 @@ function Contact() {
           >
             We'd love to hear from you!
           </h2>
-          <p
-            style={{ padding: "40px", fontSize: "30px", textAlign: "center" }}
-          >
+          <p style={{ padding: "40px", fontSize: "30px", textAlign: "center" }}>
             If you would like us to work with you on your next project, please
             get in touch and tell us about what you’d like to achieve.
           </p>
@@ -69,7 +67,7 @@ function Contact() {
               alignItems: "center",
               justifyContent: "center",
               height: "100%",
-              marginBottom: "100px"
+              marginBottom: "100px",
             }}
           >
             <Button

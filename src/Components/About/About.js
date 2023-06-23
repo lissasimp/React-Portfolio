@@ -8,7 +8,7 @@ import "../About/About.css";
 function About() {
   return (
     <>
-      <section className="section mt-5" style={{marginBottom: "50px"}}>
+      <section className="section mt-5" style={{ marginBottom: "50px" }}>
         <Container>
           <Row className="justify-content-md-center">
             <div class="col-md-4 ">
