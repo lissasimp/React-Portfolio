@@ -3,11 +3,6 @@ import profile from "../../Images/Profile.jpeg";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 
-import Button from "react-bootstrap/Button";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-
 function About() {
   return (
     <>

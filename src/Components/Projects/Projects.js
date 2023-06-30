@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 
 import projects from "./projects.json";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { FaGithub } from "react-icons/fa";
@@ -23,7 +22,7 @@ function ProjectCard() {
           className="g-3"
           style={{ marginLeft: "auto", marginRight: "auto" }}
         >
-          {projects.map((props) => (
+          {projects.map(props => (
             <Card.Body key={props.id}>
               <Card
                 className="d-flex flex-column"

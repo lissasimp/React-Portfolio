@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { FaTwitter } from "react-icons/fa";
