@@ -56,7 +56,7 @@ function Contact() {
               className="text-center"
               style={{ fontSize: "25px", paddingTop: "30px" }}
             >
-              Or connect with us:
+              Or connect with me:
             </p>
           </div>
 
