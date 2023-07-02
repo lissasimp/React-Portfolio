@@ -74,21 +74,21 @@ function Contact() {
               style={{ marginRight: "1rem" }}
               href="https://twitter.com/LissaSimpson17"
             >
-              <FaTwitter style={{ fontSize: "3rem" }} />
+              <FaTwitter style={{ fontSize: "2rem" }} />
             </Button>{" "}
             <Button
               className="contactBtn"
               style={{ marginRight: "1rem" }}
               href="https://www.linkedin.com/in/lissasimpson/"
             >
-              <FaLinkedin style={{ fontSize: "3rem" }} />
+              <FaLinkedin style={{ fontSize: "2rem" }} />
             </Button>{" "}
             <Button
               className="contactBtn"
               style={{ marginRight: "1rem" }}
               href="https://github.com/lissasimp"
             >
-              <FaGithub style={{ fontSize: "3rem" }} />
+              <FaGithub style={{ fontSize: "2rem" }} />
             </Button>{" "}
           </div>
         </div>
