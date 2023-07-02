@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Travel2 App",
     "text": "A collaborative project which solves a real-world problem by integrating data received from multiple server-side API requests - using server-side APIs, HTML, JS and CSS.",
-    "deployedLink": "https://lissasimp.github.io/Travel2App/",
+    "deployedLink": "https://lissasimp.github.io/Travel2/",
     "githubRepo": "https://github.com/lissasimp/Travel2App",
     "image": "/Images/Travel2.png"
   },
