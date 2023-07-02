@@ -21,12 +21,12 @@ function Contact() {
             className="title-font font-semibold text-yellow text-center"
             style={{ paddingTop: "50px", fontSize: "40px" }}
           >
-            We'd love to hear from you!
+            I'd love to hear from you!
           </h2>
-          <p style={{ padding: "40px", fontSize: "30px", textAlign: "center" }}>
+          {/* <p style={{ padding: "40px", fontSize: "30px", textAlign: "center" }}>
             If you would like us to work with you on your next project, please
             get in touch and tell us about what you’d like to achieve.
-          </p>
+          </p> */}
           <div className="text-center">
             <p style={{ fontSize: "25px" }}>
               <FaEnvelope style={{ color: "#1DA1F2", marginRight: "10px" }} />
