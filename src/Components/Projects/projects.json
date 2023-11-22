@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "DizzitUp",
+    "text": "Landing Page built for a Fintech Startup company 'DizzitUp' whilst interning - using WordPress and Custom CSS.",
+    "deployedLink": "https://lissasimp.github.io/Travel2/",
+    "githubRepo": "https://github.com/lissasimp/Travel2",
+    "image": "/Images/DizzitUp Mock Up.png"
+  },
+  {
+    "id": 2,
     "name": "Travel2 App",
     "text": "A collaborative project which solves a real-world problem by integrating data received from multiple server-side API requests - using server-side APIs, HTML, JS and CSS.",
     "deployedLink": "https://lissasimp.github.io/Travel2/",
@@ -8,20 +16,12 @@
     "image": "/Images/Travel2 MockUp.png"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Bored?",
     "text": "A collaborative front-end, single-page application using React front end to build a user-focused platform - using React and NPM modules.",
     "deployedLink": "https://boredappproj.netlify.app/",
     "githubRepo": "https://github.com/lissasimp/BoredApp",
-    "image": "/Images/BoredActivity.png"
-  },
-  {
-    "id": 3,
-    "name": "Bootstrap Portfolio",
-    "text": "A responsive portfolio site - using Bootstrap and custom styling in CSS.",
-    "deployedLink": "https://lissasimp.github.io/Bootstrap-Portfolio/",
-    "githubRepo": "https://github.com/lissasimp/Bootstrap-Portfolio",
-    "image": "/Images/BootstrapFS.png"
+    "image": "/Images/Bored.png"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "text": "A weather dashboard that runs in the browser and retrieves data from server APIs - created with JS, HTML and CSS. ",
     "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
     "githubRepo": "https://github.com/lissasimp/Weather-Dashboard",
-    "image": "/Images/Weather1.jpg"
+    "image": "/Images/Weather mockup.png"
   },
  
   {
@@ -46,7 +46,7 @@
     "text": "A password generator with dynamically updated HTML and CSS. ",
     "deployedLink": "https://lissasimp.github.io/Password-Generator/",
     "githubRepo": "https://github.com/lissasimp/Password-Generator",
-    "image": "/Images/Password.jpg"
+    "image": "/Images/Password MockUp.png"
   }
 
 ]

@@ -20,7 +20,7 @@ function ProjectCard() {
           md={2}
           lg={3}
           className="g-3"
-          style={{ marginLeft: "auto", marginRight: "auto" }}
+          style={{ marginLeft: "auto", marginRight: "auto"}}
         >
           {projects.map(props => (
             <Card.Body key={props.id}>
@@ -28,10 +28,9 @@ function ProjectCard() {
                 className="d-flex flex-column"
                 style={{
                   width: "24rem",
-                  height: "24rem",
-                  borderRadiusTop: "20px",
-                  border: "solid 4px orange",
-                  backgroundColor: "black",
+                  height: "36rem",
+                  border: "none",
+                  backgroundColor: "transparent",
                 }}
               >
                 <div className="my-auto">
@@ -39,7 +38,11 @@ function ProjectCard() {
                     variant="top"
                     src={process.env.PUBLIC_URL + props.image}
                     alt={props.name}
-                    style={{ opacity: "0.3" }}
+                    style={{
+                      opacity: "0.6",
+                      marginRight: "20px",
+                      borderRadius:"0"
+                    }}
                   />
                 </div>
                 <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -48,8 +51,6 @@ function ProjectCard() {
                       color: "orange",
                       fontWeight: "700",
                       fontSize: "1.8rem",
-                      marginBottom: "1.5rem",
-                      marginTop: "7rem",
                     }}
                   >
                     {props.name}
@@ -64,7 +65,7 @@ function ProjectCard() {
                   >
                     {props.text}
                   </Card.Text>
-                  <div className="d-flex flex-row justify-content-center mt-auto">
+                  <div className="d-flex flex-row justify-content-center mt-auto" >
                     <Button
                       id="button1"
                       variant="dark"
