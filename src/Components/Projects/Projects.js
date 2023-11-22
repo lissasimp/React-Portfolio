@@ -41,7 +41,7 @@ function ProjectCard() {
                     style={{
                       opacity: "0.6",
                       marginRight: "20px",
-                      borderRadius:"0"
+                      borderRadius:"2"
                     }}
                   />
                 </div>
