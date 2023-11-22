@@ -3,14 +3,14 @@
     "id": 1,
     "name": "DizzitUp",
     "text": "Landing Page built for a Fintech Startup company 'DizzitUp' whilst interning - using WordPress and Custom CSS.",
-    "deployedLink": "https://lissasimp.github.io/Travel2/",
-    "githubRepo": "https://github.com/lissasimp/Travel2",
+    "deployedLink": "https://about.dizzitupmarket.com/?_ga=2.206059411.1236188685.1700658436-771917603.1696435296&_gl=1%2A1komzk2%2A_ga%2ANzcxOTE3NjAzLjE2OTY0MzUyOTY.%2A_ga_JWNLBFXGE7%2AMTcwMDY1ODQzNi4yLjAuMTcwMDY1ODQzNi42MC4wLjA.%2A_ga_5NZL2H1EMZ%2AMTcwMDY1ODQzNi4xLjAuMTcwMDY1ODQzNi4wLjAuMA..",
+    "githubRepo": "",
     "image": "/Images/DizzitUp Mock Up.png"
   },
   {
     "id": 2,
     "name": "Travel2 App",
-    "text": "A collaborative project which solves a real-world problem by integrating data received from multiple server-side API requests - using server-side APIs, HTML, JS and CSS.",
+    "text": "A collaborative project which solves a real-world problem by integrating data received from multiple server-side API requests.",
     "deployedLink": "https://lissasimp.github.io/Travel2/",
     "githubRepo": "https://github.com/lissasimp/Travel2",
     "image": "/Images/Travel2 MockUp.png"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Weather Dashboard",
-    "text": "A weather dashboard that runs in the browser and retrieves data from server APIs - created with JS, HTML and CSS. ",
+    "text": "A weather dashboard that runs in the browser and retrieves data from server APIs. ",
     "deployedLink": "https://lissasimp.github.io/Weather-Dashboard/",
     "githubRepo": "https://github.com/lissasimp/Weather-Dashboard",
     "image": "/Images/Weather mockup.png"

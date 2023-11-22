@@ -10,7 +10,7 @@ import { FaGlobe } from "react-icons/fa";
 
 function ProjectCard() {
   return (
-    <div className="mx-auto align-items-center">
+    <div className="d-flex flex-column mx-auto align-items-center">
       <Container
         className="text-center"
         style={{ marginBottom: "5rem", marginTop: "2rem" }}
@@ -28,24 +28,25 @@ function ProjectCard() {
                 className="d-flex flex-column"
                 style={{
                   width: "24rem",
-                  height: "36rem",
+                  height: "28rem",
                   border: "none",
                   backgroundColor: "transparent",
                 }}
               >
-                <div className="my-auto">
+                <div className="image">
                   <Card.Img
-                    variant="top"
+                    // variant="top"
                     src={process.env.PUBLIC_URL + props.image}
                     alt={props.name}
                     style={{
                       opacity: "0.6",
                       marginRight: "20px",
-                      borderRadius:"2"
+                      marginBottom: "15px",
+                      borderRadius:"0"
                     }}
                   />
                 </div>
-                <div className="card-img-overlay d-flex flex-column justify-content-center">
+                <div className="d-flex flex-column justify-content-center">
                   <Card.Title
                     style={{
                       color: "orange",
@@ -61,6 +62,7 @@ function ProjectCard() {
                       colour: "black",
                       fontSize: "1rem",
                       fontWeight: "400",
+                      marginBottom:"15px"
                     }}
                   >
                     {props.text}
@@ -68,6 +70,7 @@ function ProjectCard() {
                   <div className="d-flex flex-row justify-content-center mt-auto" >
                     <Button
                       id="button1"
+                      class="align-self-end"
                       variant="dark"
                       href={props.deployedLink}
                       style={{
